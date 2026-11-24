@@ -1,0 +1,2643 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
+  <meta name="description" content="Inscrivez-vous au Dîner Gala « La Vie Colorée » : nuit du 31 décembre 2026 au 1er janvier 2027, Temple Emmaüs, Yopougon. Pass 5 000 FCFA, acompte dès 2 500 FCFA." />
+  <meta name="theme-color" content="#0D4A1E" />
+  <meta property="og:type" content="website" />
+  <meta property="og:title" content="Dîner Gala « La Vie Colorée » — Réservez votre Pass" />
+  <meta property="og:description" content="Nuit du 31 déc. au 1er janv. • Temple Emmaüs, Yopougon • Pass 5 000 FCFA (acompte dès 2 500 F) • Tenue colorée" />
+  <title>Dîner Gala « La Vie Colorée » — Inscription &amp; paiement | Temple Emmaüs</title>
+
+  <!-- Tailwind CSS -->
+  <script src="https://cdn.tailwindcss.com/3.4.17"></script>
+
+  <!-- Google Fonts : Playfair Display & Plus Jakarta Sans -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,600;0,700;0,800;1,600&family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+
+  <script>
+    tailwind.config = {
+      theme: {
+        extend: {
+          colors: {
+            forestDeep: '#0D4A1E',
+            forestDark: '#1B4332',
+            galaGold: '#D4AF37',
+            galaGoldBright: '#F2B705',
+            galaGoldLight: '#F6E7B4',
+            ivorySurface: '#F8FAF9',
+            waveBlue: '#1DC4FF',
+            waveBlueHover: '#0AB3F0',
+            waveNavy: '#072138'
+          },
+          fontFamily: {
+            serif: ['"Playfair Display"', 'Georgia', 'serif'],
+            sans: ['"Plus Jakarta Sans"', 'system-ui', 'sans-serif']
+          }
+        }
+      }
+    }
+  </script>
+
+  <style>
+    body {
+      font-family: 'Plus Jakarta Sans', sans-serif;
+      background-color: #F8FAF9;
+      color: #1F2937;
+    }
+
+    /* Ruban arc-en-ciel « La Vie Colorée » */
+    .rainbow-bar {
+      background: linear-gradient(90deg, #E63946 0%, #F77F00 20%, #FCBF49 40%, #2A9D8F 60%, #3A86FF 80%, #8338EC 100%);
+    }
+
+    /* Arrière-plan héro forêt profonde avec éclats festifs */
+    .hero-gala-bg {
+      background-color: #0D4A1E;
+      background-image:
+        radial-gradient(circle at 12% 20%, rgba(212, 175, 55, 0.22) 0%, transparent 45%),
+        radial-gradient(circle at 88% 18%, rgba(230, 57, 70, 0.16) 0%, transparent 42%),
+        radial-gradient(circle at 85% 82%, rgba(58, 134, 255, 0.18) 0%, transparent 45%),
+        radial-gradient(circle at 18% 85%, rgba(131, 56, 236, 0.15) 0%, transparent 42%),
+        linear-gradient(160deg, #0D4A1E 0%, #1B4332 100%);
+    }
+
+    @keyframes fadeSlideUp {
+      from {
+        opacity: 0;
+        transform: translateY(10px);
+      }
+      to {
+        opacity: 1;
+        transform: translateY(0);
+      }
+    }
+    .animate-fade-up {
+      animation: fadeSlideUp 0.28s ease-out forwards;
+    }
+
+    /* Lisibilité mobile : plus aucun texte sous 12 px */
+    .text-\[10px\], .text-\[11px\] { font-size: 0.75rem !important; line-height: 1.1rem !important; }
+    :root { color-scheme: light; box-sizing: border-box; padding-top: env(safe-area-inset-top, 0px); padding-bottom: env(safe-area-inset-bottom, 0px); }
+    html { scroll-padding-top: env(safe-area-inset-top, 0px); }
+    .rainbow-bar { top: env(safe-area-inset-top, 0px) !important; }
+    body::before { content: ""; position: fixed; inset: 0 0 auto; height: env(safe-area-inset-top, 0px); background: #F8FAF9; z-index: 30; }
+    :focus-visible { outline: 3px solid #D4AF37; outline-offset: 2px; }
+    @media (prefers-reduced-motion: reduce) { .animate-fade-up, .animate-pulse { animation: none !important; } }
+  </style>
+</head>
+<body class="min-h-screen flex flex-col antialiased selection:bg-galaGold selection:text-forestDeep">
+
+  <!-- Ruban prismatique supérieur -->
+  <div class="rainbow-bar h-2 w-full sticky top-0 z-40 shadow-sm"></div>
+
+  <!-- ===================================================================== -->
+  <!-- 1. BANNIÈRE HÉRO & IDENTITÉ VISUELLE DE L'ÉVÉNEMENT                   -->
+  <!-- ===================================================================== -->
+  <header class="hero-gala-bg text-white relative overflow-hidden border-b-4 border-galaGold">
+    <div class="max-w-5xl mx-auto px-4 sm:px-6 py-7 sm:py-10 text-center relative z-10">
+
+      <!-- Emblème officiel SVG : Bouclier/Cercle vert, Bible ouverte dorée, Croix et Colombe blanches -->
+      <div class="mb-3.5 inline-flex items-center justify-center p-1.5 rounded-full bg-white/10 backdrop-blur-sm border border-galaGold/60 shadow-xl">
+        <svg class="w-20 h-20 sm:w-24 sm:h-24" viewBox="0 0 140 140" fill="none" xmlns="http://www.w3.org/2000/svg" aria-label="Logo Jeunesse Temple Emmaüs Yopougon N. Quartier">
+          <defs>
+            <path id="topArc" d="M 20,70 A 50,50 0 1,1 120,70" />
+            <path id="bottomArc" d="M 122,72 A 52,52 0 0,1 18,72" />
+          </defs>
+          <!-- Cercle extérieur & fond forêt -->
+          <circle cx="70" cy="70" r="66" fill="#0D4A1E" stroke="#D4AF37" stroke-width="3.5"/>
+          <circle cx="70" cy="70" r="60" fill="#1B4332" stroke="#F2B705" stroke-width="1" stroke-dasharray="3 3" opacity="0.8"/>
+
+          <!-- Texte circulaire officiel -->
+          <text fill="#F6E7B4" font-size="7.4" font-weight="800" letter-spacing="1.4" font-family="Plus Jakarta Sans, sans-serif">
+            <textPath href="#topArc" startOffset="50%" text-anchor="middle">TEMPLE EMMAÜS</textPath>
+          </text>
+          <text fill="#D4AF37" font-size="6.4" font-weight="800" letter-spacing="1.1" font-family="Plus Jakarta Sans, sans-serif">
+            <textPath href="#bottomArc" startOffset="50%" text-anchor="middle">YOPOUGON N. QUARTIER</textPath>
+          </text>
+
+          <!-- Rayons lumineux -->
+          <path d="M70 25V31M48 34L52 39M92 34L88 39" stroke="#F2B705" stroke-width="2" stroke-linecap="round" opacity="0.9"/>
+
+          <!-- Croix blanche centrale -->
+          <rect x="66.5" y="34" width="7" height="50" rx="2" fill="#FFFFFF"/>
+          <rect x="51" y="49" width="38" height="7" rx="2" fill="#FFFFFF"/>
+
+          <!-- Colombe blanche de l'Esprit -->
+          <path d="M56 39C49 32 38 32 32 37C39 38 44 41 46 46C41 46 37 48 34 52C42 52 50 48 56 42C58 40 60 39 63 39C60 38 58 38 56 39Z" fill="#FFFFFF"/>
+
+          <!-- Bible ouverte dorée -->
+          <path d="M35 88C46 82 58 84 70 92C82 84 94 82 105 88V102C94 96 82 98 70 106C58 98 46 96 35 102V88Z" fill="#D4AF37"/>
+          <path d="M38 85C48 80 59 81 70 89C81 81 92 80 102 85V98C92 93 81 94 70 102C59 94 48 93 38 98V85Z" fill="#F2B705"/>
+          <line x1="70" y1="89" x2="70" y2="106" stroke="#0D4A1E" stroke-width="2.2"/>
+        </svg>
+      </div>
+
+      <!-- Nom complet de l'organisation -->
+      <p class="text-[11px] sm:text-xs font-extrabold tracking-[0.14em] uppercase text-galaGoldLight max-w-2xl mx-auto">
+        ÉGLISE DES ASSEMBLÉES DE DIEU &bull; YOPOUGON N. QUARTIER TEMPLE EMMAÜS — LA JEUNESSE
+      </p>
+
+      <!-- Titre Principal -->
+      <h1 class="mt-3 font-serif text-3xl sm:text-5xl font-extrabold tracking-tight text-white leading-tight">
+        DÎNER GALA <span class="text-transparent bg-clip-text bg-gradient-to-r from-amber-300 via-yellow-200 to-amber-400">« LA VIE COLORÉE »</span>
+      </h1>
+
+      <p id="countdownChip" class="mt-4 inline-flex items-center px-4 py-1.5 rounded-full bg-galaGold text-forestDeep text-sm font-extrabold" aria-live="polite"></p>
+
+      <!-- Détails clés de l'événement en grille propre -->
+      <div class="mt-5 grid grid-cols-1 sm:grid-cols-3 gap-2.5 max-w-4xl mx-auto text-left">
+        <div class="rounded-xl bg-black/25 backdrop-blur-md border border-galaGold/40 p-3 flex items-start gap-2.5">
+          <svg class="w-5 h-5 text-galaGoldBright shrink-0 mt-0.5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M8 7V3m8 4V3m-9 8h10M5 21h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v12a2 2 0 002 2z"/></svg>
+          <div>
+            <span class="text-[10px] font-extrabold uppercase tracking-wider text-galaGoldLight block">Date &amp; Horaire</span>
+            <span class="text-xs sm:text-sm font-bold text-white leading-snug block">Nuit du 31 Déc. 2026 au 1er Janv. 2027</span>
+            <span class="text-[11px] text-white/80 block">00h00 – 05h50 (Après le culte de traversée)</span>
+          </div>
+        </div>
+
+        <div class="rounded-xl bg-black/25 backdrop-blur-md border border-galaGold/40 p-3 flex items-start gap-2.5">
+          <svg class="w-5 h-5 text-galaGoldBright shrink-0 mt-0.5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z"/><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 11a3 3 0 11-6 0 3 3 0 016 0z"/></svg>
+          <div>
+            <span class="text-[10px] font-extrabold uppercase tracking-wider text-galaGoldLight block">Lieu de réception</span>
+            <span class="text-xs sm:text-sm font-bold text-white leading-snug block">Salle Polyvalente — Temple Emmaüs</span>
+            <span class="text-[11px] text-white/80 block">Yopougon Nouveau Quartier</span>
+          </div>
+        </div>
+
+        <div class="rounded-xl bg-black/25 backdrop-blur-md border border-galaGold/40 p-3 flex items-start gap-2.5">
+          <span class="w-5 h-5 rounded-full rainbow-bar shrink-0 mt-0.5 border border-white/60"></span>
+          <div>
+            <span class="text-[10px] font-extrabold uppercase tracking-wider text-galaGoldLight block">Dress Code &amp; Tarif</span>
+            <span class="text-xs sm:text-sm font-bold text-white leading-snug block">Dress Code : Tenue Colorée</span>
+            <span class="text-[11px] text-galaGoldBright font-bold block">Pass : 5 000 FCFA (Acompte : 2 500 F)</span>
+          </div>
+        </div>
+      </div>
+
+      <!-- Temps forts & Infolines -->
+      <div class="mt-4 flex flex-col sm:flex-row items-center justify-center gap-2 sm:gap-4 text-xs text-white/95">
+        <span class="font-bold text-galaGoldLight">
+          Festin Royal &bull; JADEM Awards &bull; Louange Explosive &bull; Ma Couleur pour 2027
+        </span>
+      </div>
+      <p class="mt-1.5 text-[11px] sm:text-xs font-semibold text-white/85">
+        Infolines : <span class="text-galaGoldBright font-bold">07 08 57 60 89 / 07 79 48 28 48 / 01 51 27 94 16</span>
+      </p>
+
+    </div>
+  </header>
+
+  <!-- ===================================================================== -->
+  <!-- 2. NAVIGATION À 2 ONGLETS                                             -->
+  <!-- ===================================================================== -->
+  <nav class="max-w-4xl w-full mx-auto px-4 sm:px-6 -mt-5 relative z-20" aria-label="Navigation du portail">
+    <div role="tablist" class="bg-white rounded-2xl p-1.5 shadow-lg border border-gray-200 grid grid-cols-2 gap-1.5">
+      <button
+        type="button"
+        id="tabBtnRegister" role="tab" aria-selected="true"
+        class="py-3 px-3 sm:px-5 rounded-xl font-extrabold text-xs sm:text-sm transition flex items-center justify-center gap-2 cursor-pointer bg-forestDeep text-white shadow-sm"
+      >
+        <svg class="w-4 h-4 shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2.2" d="M11 5H6a2 2 0 00-2 2v11a2 2 0 002 2h11a2 2 0 002-2v-5m-1.414-9.414a2 2 0 112.828 2.828L11.828 15H9v-2.828l8.586-8.586z"/></svg>
+        <span>S'inscrire</span>
+      </button>
+
+      <button
+        type="button"
+        id="tabBtnSpace" role="tab" aria-selected="false"
+        class="py-3 px-3 sm:px-5 rounded-xl font-extrabold text-xs sm:text-sm transition flex items-center justify-center gap-2 cursor-pointer text-gray-700 hover:bg-gray-100"
+      >
+        <svg class="w-4 h-4 shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2.2" d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"/></svg>
+        <span>Mon espace &amp; mon reçu</span>
+        <span id="tabSpaceBadge" class="hidden w-2.5 h-2.5 rounded-full bg-emerald-500 animate-pulse"></span>
+      </button>
+    </div>
+  </nav>
+
+  <!-- CONTENU PRINCIPAL -->
+  <main class="flex-grow max-w-4xl w-full mx-auto px-4 sm:px-6 py-6 sm:py-8">
+
+    <!-- =================================================================== -->
+    <!-- ONGLET 1 : S'INSCRIRE AU GALA + CARTE PAIEMENT WAVE                 -->
+    <!-- =================================================================== -->
+    <section id="tabPanelRegister" class="animate-fade-up">
+      <div class="grid grid-cols-1 lg:grid-cols-12 gap-6 items-start">
+
+        <!-- Colonne Gauche (7/12) : Formulaire d'inscription -->
+        <div class="lg:col-span-7 bg-white rounded-2xl shadow-md border border-gray-200 overflow-hidden">
+          <div class="bg-forestDeep px-5 sm:px-6 py-4 flex items-center justify-between">
+            <div>
+              <h2 class="text-base sm:text-lg font-extrabold text-white">Fiche d'Inscription Officielle</h2>
+              <p class="text-xs text-galaGoldLight/90">Obtenez votre Pass personnel et suivez votre statut</p>
+            </div>
+            <span class="px-3 py-1 rounded-full bg-galaGold text-forestDeep text-xs font-extrabold shrink-0">
+              Pass : 5 000 F
+            </span>
+          </div>
+
+          <!-- Alerte anti-doublon -->
+          <div id="duplicateAlertBox" class="hidden mx-5 mt-5 p-4 rounded-xl bg-amber-50 border-2 border-amber-300 animate-fade-up">
+            <h3 class="text-sm font-extrabold text-amber-950">Ce numéro WhatsApp est déjà inscrit !</h3>
+            <p id="duplicateAlertText" class="text-xs sm:text-sm text-amber-900 mt-1"></p>
+            <button
+              type="button"
+              id="openExistingSpaceBtn"
+              class="mt-3 inline-flex items-center gap-2 px-4 py-2 rounded-xl bg-forestDeep hover:bg-forestDark text-white font-bold text-xs sm:text-sm transition cursor-pointer"
+            >
+              <span>Ouvrir mon espace &amp; mon reçu</span>
+              <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5" d="M14 5l7 7m0 0l-7 7m7-7H3"/></svg>
+            </button>
+          </div>
+
+          <form id="registrationForm" class="p-5 sm:p-6 space-y-4" novalidate>
+            <!-- Nom & Prénoms -->
+            <div class="grid grid-cols-1 sm:grid-cols-2 gap-4">
+              <div>
+                <label for="regNom" class="block text-sm font-bold text-gray-800 mb-1">
+                  Nom <span class="text-red-600">*</span>
+                </label>
+                <input
+                  type="text"
+                  id="regNom"
+                  required
+                  placeholder="Ex: KOUASSI"
+                  class="w-full px-3.5 py-2.5 rounded-xl border border-gray-300 bg-gray-50/60 text-gray-900 font-bold uppercase placeholder:normal-case placeholder:font-normal focus:bg-white focus:outline-none focus:ring-2 focus:ring-forestDeep transition"
+                />
+                <p id="err-regNom" class="hidden mt-1 text-xs text-red-600 font-semibold">Veuillez saisir votre nom.</p>
+              </div>
+
+              <div>
+                <label for="regPrenoms" class="block text-sm font-bold text-gray-800 mb-1">
+                  Prénoms <span class="text-red-600">*</span>
+                </label>
+                <input
+                  type="text"
+                  id="regPrenoms"
+                  required
+                  placeholder="Ex: Jean-Marc"
+                  class="w-full px-3.5 py-2.5 rounded-xl border border-gray-300 bg-gray-50/60 text-gray-900 font-medium focus:bg-white focus:outline-none focus:ring-2 focus:ring-forestDeep transition"
+                />
+                <p id="err-regPrenoms" class="hidden mt-1 text-xs text-red-600 font-semibold">Veuillez saisir vos prénoms.</p>
+              </div>
+            </div>
+
+            <!-- Contact WhatsApp (10 chiffres) -->
+            <div>
+              <label for="regPhone" class="block text-sm font-bold text-gray-800 mb-1">
+                Contact WhatsApp (10 chiffres) <span class="text-red-600">*</span>
+              </label>
+              <div class="relative">
+                <span class="absolute inset-y-0 left-0 flex items-center pl-3.5 text-gray-500 font-bold text-sm select-none">
+                  +225
+                </span>
+                <input
+                  type="tel"
+                  id="regPhone"
+                  inputmode="numeric"
+                  maxlength="20" autocomplete="tel-national"
+                  required
+                  placeholder="Ex: 0708576089"
+                  class="w-full pl-14 pr-4 py-2.5 rounded-xl border border-gray-300 bg-gray-50/60 text-gray-900 font-bold tracking-wide focus:bg-white focus:outline-none focus:ring-2 focus:ring-forestDeep transition"
+                />
+              </div>
+              <p class="mt-1 text-[11px] text-gray-500">Identifiant unique permettant de consulter votre statut et télécharger votre reçu PNG.</p>
+              <p id="err-regPhone" class="hidden mt-1 text-xs text-red-600 font-semibold">Veuillez saisir un numéro valide à 10 chiffres (ex: 0708576089).</p>
+            </div>
+
+            <!-- Unité de jeunesse -->
+            <div>
+              <label for="regUnite" class="block text-sm font-bold text-gray-800 mb-1">
+                Unité de jeunesse <span class="text-red-600">*</span>
+              </label>
+              <div class="relative">
+                <select
+                  id="regUnite"
+                  required
+                  class="w-full appearance-none px-3.5 py-2.5 rounded-xl border border-gray-300 bg-gray-50/60 text-gray-900 font-semibold focus:bg-white focus:outline-none focus:ring-2 focus:ring-forestDeep transition pr-10"
+                >
+                  <option value="" disabled selected>-- Choisissez votre unité de jeunesse --</option>
+                  <option value="DUNAMIS DE CHRIST">DUNAMIS DE CHRIST</option>
+                  <option value="ELISHA">ELISHA</option>
+                  <option value="LES GEDEONITES DE JESSE">LES GEDEONITES DE JESSE</option>
+                  <option value="ORAH GENERATION">ORAH GENERATION</option>
+                  <option value="Autre">Autre</option>
+                </select>
+                <div class="pointer-events-none absolute inset-y-0 right-0 flex items-center px-3 text-gray-500">
+                  <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"/></svg>
+                </div>
+              </div>
+              <p id="err-regUnite" class="hidden mt-1 text-xs text-red-600 font-semibold">Veuillez sélectionner votre unité de jeunesse.</p>
+
+              <!-- Champ conditionnel si "Autre" -->
+              <div id="regAutreUniteBox" class="hidden mt-3 animate-fade-up">
+                <label for="regAutreUniteInput" class="block text-xs font-bold text-forestDeep mb-1">
+                  Précisez votre unité ou statut <span class="text-red-600">*</span>
+                </label>
+                <input
+                  type="text"
+                  id="regAutreUniteInput"
+                  placeholder="Ex: Nouveau membre, Invité, Chorale..."
+                  class="w-full px-3.5 py-2.5 rounded-xl border border-forestDeep/40 bg-emerald-50/40 text-gray-900 text-sm focus:bg-white focus:outline-none focus:ring-2 focus:ring-forestDeep transition"
+                />
+                <p id="err-regAutreUnite" class="hidden mt-1 text-xs text-red-600 font-semibold">Veuillez préciser votre unité ou statut.</p>
+              </div>
+            </div>
+
+            <!-- Formule / Tarif -->
+            <div>
+              <label class="block text-sm font-bold text-gray-800 mb-1.5">
+                Formule / Tarif <span class="text-red-600">*</span>
+              </label>
+              <div class="space-y-2.5" role="radiogroup" aria-label="Formule du pass">
+                <label class="formule-radio-card flex items-start gap-3 p-3 rounded-xl border-2 border-forestDeep bg-emerald-50/50 cursor-pointer transition">
+                  <input type="radio" name="regFormule" value="Pass Standard — 5 000 FCFA" data-target="5000" checked class="mt-1 w-4 h-4 accent-[#0D4A1E]" />
+                  <div>
+                    <span class="block text-sm font-extrabold text-gray-900">Pass Standard — 5 000 FCFA</span>
+                    <span class="block text-xs text-gray-600">Acompte possible : 2 500 FCFA (solde avant le 26 Déc. 2026)</span>
+                  </div>
+                </label>
+
+                <label class="formule-radio-card flex items-start gap-3 p-3 rounded-xl border-2 border-gray-200 bg-white cursor-pointer transition hover:border-forestDeep/50">
+                  <input type="radio" name="regFormule" value="Pass Solidarité — 7 000 FCFA" data-target="7000" class="mt-1 w-4 h-4 accent-[#0D4A1E]" />
+                  <div>
+                    <span class="block text-sm font-extrabold text-gray-900">Pass Solidarité — 7 000 FCFA</span>
+                    <span class="block text-xs text-gray-600">5 000 FCFA Pass + 2 000 FCFA soutien</span>
+                  </div>
+                </label>
+              </div>
+            </div>
+
+            
+
+            <!-- Bouton de validation -->
+            <div class="pt-2">
+              <button
+                type="submit"
+                class="w-full py-3.5 px-6 rounded-xl bg-forestDeep hover:bg-forestDark text-white font-extrabold text-sm sm:text-base shadow-lg shadow-forestDeep/20 transition transform active:scale-[0.99] flex items-center justify-center gap-2 cursor-pointer"
+              >
+                <span>Valider mon inscription &amp; ouvrir mon espace</span>
+                <svg class="w-5 h-5 text-galaGoldBright" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5" d="M13 7l5 5m0 0l-5 5m5-5H6"/></svg>
+              </button>
+            </div>
+          </form>
+        </div>
+
+        <!-- Colonne Droite (5/12) : Carte officielle de Paiement Wave -->
+        <div class="lg:col-span-5 space-y-5">
+          <div class="bg-white rounded-2xl shadow-md border-2 border-waveBlue/60 overflow-hidden">
+            <div class="bg-waveNavy px-5 py-4 flex items-center justify-between">
+              <div class="flex items-center gap-2.5">
+                <span class="w-8 h-8 rounded-full bg-waveBlue text-waveNavy font-black text-base flex items-center justify-center">W</span>
+                <div>
+                  <span class="text-[10px] font-bold uppercase tracking-wider text-waveBlue block">Compte Unique Officiel</span>
+                  <h3 class="text-sm font-extrabold text-white">Paiement Mobile Wave</h3>
+                </div>
+              </div>
+              <span class="px-2.5 py-0.5 rounded-full bg-white/10 text-white text-[11px] font-bold">Côte d'Ivoire</span>
+            </div>
+
+            <div class="p-5 space-y-4">
+              <div class="p-3.5 rounded-xl bg-sky-50 border border-sky-200">
+                <span class="text-[11px] font-bold uppercase text-sky-900 block">Bénéficiaire officiel :</span>
+                <p class="text-base font-extrabold text-waveNavy mt-0.5">JEUNESSE AD YOP N.Q EMMAÜS</p>
+              </div>
+
+              <p class="text-xs sm:text-sm text-gray-700 leading-relaxed">
+                Veuillez payer <strong>JEUNESSE AD YOP N.Q EMMAÜS</strong> avec Wave en cliquant sur le bouton ci-dessous. Ajoutez cet expéditeur à vos contacts pour rendre le lien cliquable.
+              </p>
+
+              <div class="space-y-2.5">
+                <a
+                  href="https://pay.wave.com/m/M_ci_2d5ZaJJPaKuA/c/ci/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  class="w-full py-3.5 px-4 rounded-xl bg-waveBlue hover:bg-waveBlueHover text-waveNavy font-extrabold text-sm shadow-md transition flex items-center justify-center gap-2"
+                >
+                  <span class="w-5 h-5 rounded-full bg-waveNavy text-waveBlue font-black text-xs flex items-center justify-center">W</span>
+                  <span>Payer maintenant avec Wave</span>
+                  <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5" d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14"/></svg>
+                </a>
+
+                <button
+                  type="button"
+                  class="copy-wave-btn w-full py-2.5 px-4 rounded-xl border border-gray-300 bg-gray-50 hover:bg-gray-100 text-gray-800 font-bold text-xs transition flex items-center justify-center gap-2 cursor-pointer"
+                >
+                  <svg class="w-4 h-4 text-gray-600" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M8 16H6a2 2 0 01-2-2V6a2 2 0 012-2h8a2 2 0 012 2v2m-6 12h8a2 2 0 002-2v-8a2 2 0 00-2-2h-8a2 2 0 00-2 2v8a2 2 0 002 2z"/></svg>
+                  <span>Copier le lien Wave</span>
+                </button>
+              </div>
+
+              <div class="pt-3 border-t border-gray-200 text-xs text-gray-600 space-y-1.5">
+                <p class="font-bold text-forestDeep">Comment obtenir votre reçu image PNG ?</p>
+                <ol class="list-decimal list-inside space-y-1 text-[11px] leading-relaxed">
+                  <li>Inscrivez-vous dans le formulaire ci-contre.</li>
+                  <li>Effectuez votre dépôt Wave (acompte dès 2 500 F ou totalité) ou remettez vos espèces au Pôle Finances.</li>
+                  <li>Dès validation, votre <strong>reçu officiel en image PNG</strong> se débloque dans l'onglet 2 pour partage sur WhatsApp !</li>
+                </ol>
+              </div>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </section>
+
+    <!-- =================================================================== -->
+    <!-- ONGLET 2 : MON ESPACE & MON REÇU (IMAGE PNG POUR WHATSAPP)          -->
+    <!-- =================================================================== -->
+    <section id="tabPanelSpace" class="hidden space-y-6 animate-fade-up">
+
+      <!-- Barre de recherche & accès par numéro WhatsApp ou Code Pass -->
+      <div class="bg-white rounded-2xl p-4 sm:p-6 shadow-md border border-gray-200">
+        <label for="spaceLookupInput" class="block text-xs font-extrabold uppercase tracking-wider text-forestDeep mb-2">
+          Accéder à mon espace personnel (Numéro WhatsApp)
+        </label>
+        <form id="spaceLookupForm" class="flex flex-col sm:flex-row gap-2.5">
+          <input
+            type="text"
+            id="spaceLookupInput"
+            placeholder="Ex: 0708576089" inputmode="tel"
+            class="flex-grow px-4 py-3 rounded-xl border border-gray-300 bg-gray-50/70 text-gray-900 font-bold placeholder:font-normal focus:bg-white focus:outline-none focus:ring-2 focus:ring-forestDeep transition"
+          />
+          <button
+            type="submit"
+            class="py-3 px-5 rounded-xl bg-forestDeep hover:bg-forestDark text-white font-extrabold text-sm shadow transition flex items-center justify-center gap-2 shrink-0 cursor-pointer"
+          >
+            <svg class="w-4 h-4 text-galaGoldBright" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5" d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z"/></svg>
+            <span>Consulter</span>
+          </button>
+        </form>
+        <p id="lookupErrorMsg" class="hidden mt-2 text-xs text-red-600 font-semibold"></p>
+
+        <!-- 3 boutons rapides de démonstration pour tester immédiatement les 3 statuts & le reçu PNG -->
+        <div id="demoChipsBox" class="hidden mt-3.5 pt-3 border-t border-gray-100 flex flex-wrap items-center gap-2">
+          <span class="text-[11px] font-bold text-gray-500">Aperçu rapide :</span>
+          <button type="button" data-demo-code="JADEM-2026-001" class="demo-chip-btn px-2.5 py-1 rounded-full bg-emerald-50 hover:bg-emerald-100 text-forestDeep border border-emerald-200 text-[11px] font-bold transition cursor-pointer">
+            Tester : Cas Soldé
+          </button>
+          <button type="button" data-demo-code="JADEM-2026-002" class="demo-chip-btn px-2.5 py-1 rounded-full bg-amber-50 hover:bg-amber-100 text-amber-900 border border-amber-200 text-[11px] font-bold transition cursor-pointer">
+            Tester : Cas Acompte Partiel
+          </button>
+          <button type="button" data-demo-code="JADEM-2026-003" class="demo-chip-btn px-2.5 py-1 rounded-full bg-gray-100 hover:bg-gray-200 text-gray-700 border border-gray-300 text-[11px] font-bold transition cursor-pointer">
+            Tester : Cas Inscrit en attente
+          </button>
+        </div>
+      </div>
+
+      <!-- État vide initial -->
+      <div id="spaceEmptyState" class="bg-white rounded-2xl p-8 text-center border border-gray-200 shadow-sm">
+        <div class="w-14 h-14 rounded-2xl bg-forestDeep/10 text-forestDeep flex items-center justify-center mx-auto mb-3">
+          <svg class="w-7 h-7" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 16l4.586-4.586a2 2 0 012.828 0L16 16m-2-2l1.586-1.586a2 2 0 012.828 0L20 14m-6-6h.01M6 20h12a2 2 0 002-2V6a2 2 0 00-2-2H6a2 2 0 00-2 2v12a2 2 0 002 2z"/></svg>
+        </div>
+        <h3 class="text-base sm:text-lg font-extrabold text-gray-900">Consultez votre statut et téléchargez votre reçu image PNG</h3>
+        <p class="text-xs sm:text-sm text-gray-600 max-w-md mx-auto mt-1.5 leading-relaxed">
+          Entrez votre <strong>numéro WhatsApp</strong> ou votre <strong>Code Pass</strong> (<code class="font-mono font-bold text-forestDeep">JADEM-2026-XXX</code>) ci-dessus.
+        </p>
+        <button
+          type="button"
+          id="goToRegisterFromEmptyBtn"
+          class="mt-4 inline-flex items-center gap-1.5 text-xs sm:text-sm font-bold text-forestDeep hover:underline cursor-pointer"
+        >
+          <span>Pas encore inscrit(e) ? S'inscrire dans l'onglet 1 &rarr;</span>
+        </button>
+      </div>
+
+      <!-- ================================================================= -->
+      <!-- PAGE PERSONNELLE DU PARTICIPANT                                   -->
+      <!-- ================================================================= -->
+      <div id="participantPersonalView" class="hidden space-y-6 animate-fade-up">
+
+        <!-- Carte récapitulative du statut -->
+        <div class="bg-white rounded-2xl shadow-md border border-gray-200 overflow-hidden">
+          <div class="bg-forestDeep px-5 sm:px-7 py-4 flex flex-wrap items-center justify-between gap-3">
+            <div>
+              <span class="text-[11px] font-bold uppercase tracking-widest text-galaGoldBright block">Espace Personnel Participant</span>
+              <h2 id="persFullName" class="text-lg sm:text-xl font-extrabold text-white mt-0.5">KOUASSI Jean-Marc</h2>
+            </div>
+            <div class="text-right">
+              <span class="text-[10px] uppercase tracking-wider text-white/75 block">N° de Pass</span>
+              <span id="persTicketCode" class="font-mono text-sm sm:text-base font-extrabold text-galaGoldBright bg-white/10 px-3 py-1 rounded-lg border border-galaGold/40 inline-block">
+                JADEM-2026-001
+              </span>
+            </div>
+          </div>
+
+          <div class="p-5 sm:p-7 space-y-5">
+            <!-- Métadonnées participant -->
+            <div class="grid grid-cols-2 sm:grid-cols-3 gap-3 text-xs sm:text-sm bg-ivorySurface p-3.5 rounded-xl border border-gray-200">
+              <div>
+                <span class="text-gray-500 block text-[11px] font-semibold uppercase">Unité</span>
+                <span id="persUnite" class="font-extrabold text-gray-900">DUNAMIS DE CHRIST</span>
+              </div>
+              <div>
+                <span class="text-gray-500 block text-[11px] font-semibold uppercase">WhatsApp</span>
+                <span id="persPhone" class="font-mono font-bold text-gray-900">07 08 57 60 89</span>
+              </div>
+              <div class="col-span-2 sm:col-span-1">
+                <span class="text-gray-500 block text-[11px] font-semibold uppercase">Formule</span>
+                <span id="persFormule" class="font-bold text-forestDeep">Pass Standard — 5 000 FCFA</span>
+              </div>
+            </div>
+
+            <div class="flex flex-wrap gap-2">
+              <button type="button" id="copyTicketBtn" class="px-3.5 py-2 rounded-xl border border-gray-300 bg-white hover:bg-gray-50 text-gray-800 font-bold text-xs cursor-pointer">Copier mon N° de Pass</button>
+              <button type="button" id="inviteFriendBtn" class="px-3.5 py-2 rounded-xl bg-[#25D366] hover:bg-[#1EBE5D] text-white font-bold text-xs cursor-pointer">Inviter un(e) ami(e) sur WhatsApp</button>
+            </div>
+
+            <!-- Bandeau de statut dynamique -->
+            <div id="persStatusBanner" class="rounded-xl p-4 border-2"></div>
+
+            <!-- CAS 1 : amountPaid === 0 (INSCRIT — EN ATTENTE DE PAIEMENT) -->
+            <div id="stateUnpaidContainer" class="hidden space-y-5">
+              <!-- Règle stricte : Aucun reçu tant que amountPaid === 0 -->
+              <div class="rounded-xl bg-gray-100 border border-dashed border-gray-300 p-4 flex items-start gap-3">
+                <div class="w-9 h-9 rounded-xl bg-gray-200 text-gray-700 flex items-center justify-center shrink-0">
+                  <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 15v2m-6 4h12a2 2 0 002-2v-6a2 2 0 00-2-2H6a2 2 0 00-2 2v6a2 2 0 002 2zm10-10V7a4 4 0 00-8 0v4h8z"/></svg>
+                </div>
+                <div>
+                  <h4 class="text-sm font-extrabold text-gray-900">Reçu officiel verrouillé</h4>
+                  <p class="text-xs sm:text-sm text-gray-700 mt-0.5 leading-relaxed">
+                    La preuve du reçu est disponible uniquement après validation d'un premier versement, quel que soit le montant.
+                  </p>
+                </div>
+              </div>
+
+              <!-- Options de règlement Wave & Espèces -->
+              <div class="grid grid-cols-1 md:grid-cols-2 gap-4">
+                <!-- Wave -->
+                <div class="rounded-2xl border-2 border-waveBlue/60 bg-gradient-to-b from-sky-50/80 to-white p-4 sm:p-5 flex flex-col justify-between space-y-4">
+                  <div>
+                    <span class="px-2.5 py-0.5 rounded-md bg-waveNavy text-waveBlue text-[11px] font-extrabold uppercase">Option 1 &bull; Wave</span>
+                    <p class="text-xs text-gray-600 mt-2">Compte officiel :</p>
+                    <p class="text-sm sm:text-base font-extrabold text-waveNavy">JEUNESSE AD YOP N.Q EMMAÜS</p>
+                    <p class="text-[11px] text-gray-600 mt-1.5 leading-relaxed">
+                      Veuillez payer <strong>JEUNESSE AD YOP N.Q EMMAÜS</strong> avec Wave en cliquant sur le bouton ci-dessous. Ajoutez cet expéditeur à vos contacts pour rendre le lien cliquable.
+                    </p>
+                  </div>
+
+                  <div class="space-y-2">
+                    <a
+                      href="https://pay.wave.com/m/M_ci_2d5ZaJJPaKuA/c/ci/"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      class="w-full py-3 px-4 rounded-xl bg-waveBlue hover:bg-waveBlueHover text-waveNavy font-extrabold text-sm shadow transition flex items-center justify-center gap-2"
+                    >
+                      <span class="w-5 h-5 rounded-full bg-waveNavy text-waveBlue font-black text-xs flex items-center justify-center">W</span>
+                      <span>Payer avec Wave</span>
+                    </a>
+                    <button
+                      type="button"
+                      class="copy-wave-btn w-full py-2 px-3 rounded-xl border border-gray-300 bg-white hover:bg-gray-50 text-gray-700 font-bold text-xs transition cursor-pointer"
+                    >
+                      Copier le lien Wave
+                    </button>
+                  </div>
+
+                  <!-- Formulaire Déclarer mon paiement Wave -->
+                  <form id="declareWaveInitialForm" class="pt-3 border-t border-sky-200 space-y-2.5">
+                    <p class="text-xs font-extrabold text-waveNavy">Déclarer mon paiement Wave :</p>
+                    <div class="grid grid-cols-2 gap-2">
+                      <div>
+                        <label for="declareWaveAmountInitial" class="block text-[10px] font-bold text-gray-600 uppercase mb-1">Montant envoyé</label>
+                        <select id="declareWaveAmountInitial" class="w-full px-2.5 py-2 rounded-lg border border-gray-300 text-xs font-bold bg-white">
+                          <!-- options générées selon la formule du participant -->
+                        </select>
+                      </div>
+                      <div>
+                        <label for="declareWaveRefInitial" class="block text-[10px] font-bold text-gray-600 uppercase mb-1">ID de transaction Wave *</label>
+                        <input
+                          type="text"
+                          id="declareWaveRefInitial"
+                          required
+                          placeholder="Visible sur votre reçu Wave"
+                          class="w-full px-2.5 py-2 rounded-lg border border-gray-300 text-xs font-mono bg-white"
+                        />
+                      </div>
+                    </div>
+                    <button
+                      type="submit"
+                      class="w-full py-2.5 px-3 rounded-lg bg-waveNavy hover:bg-slate-800 text-white font-bold text-xs transition cursor-pointer"
+                    >
+                      Signaler mon dépôt au Pôle Finances
+                    </button>
+                  </form>
+                </div>
+
+                <!-- Espèces -->
+                <div class="rounded-2xl border-2 border-forestDeep/30 bg-gradient-to-b from-emerald-50/70 to-white p-4 sm:p-5 flex flex-col justify-between space-y-4">
+                  <div>
+                    <span class="px-2.5 py-0.5 rounded-md bg-forestDeep text-galaGoldBright text-[11px] font-extrabold uppercase">Option 2 &bull; Espèces</span>
+                    <h4 class="text-sm sm:text-base font-extrabold text-gray-900 mt-2">Paiement en espèces au Pôle Finances</h4>
+                    <p class="text-xs text-gray-700 mt-1.5 leading-relaxed">
+                      Remettez votre acompte (dès <strong>2 500 FCFA</strong>) ou votre pass complet directement aux trésoriers du <strong>Pôle Finances</strong> après le culte au Temple Emmaüs.
+                    </p>
+                    <div class="mt-3 p-3 rounded-xl bg-white border border-emerald-200 text-xs">
+                      <span class="text-gray-500 block">Présentez votre N° de Pass :</span>
+                      <span id="cashHelperCode" class="font-mono font-extrabold text-sm text-forestDeep">JADEM-2026-003</span>
+                    </div>
+                  </div>
+                  <p class="text-[11px] text-gray-600 pt-2 border-t border-emerald-200/70 leading-relaxed">
+                    Dès l'enregistrement en caisse, votre reçu officiel en image PNG apparaîtra ici automatiquement.
+                  </p>
+                </div>
+              </div>
+            </div>
+
+            <!-- CAS 2 : 0 < amountPaid < targetAmount (PAIEMENT PARTIEL — ACOMPTE VERSÉ) -->
+            <div id="statePartialContainer" class="hidden space-y-4">
+              <div class="rounded-xl bg-amber-50 border border-amber-200 p-4 space-y-2.5">
+                <div class="flex items-center justify-between text-xs sm:text-sm font-extrabold">
+                  <span class="text-amber-950">Avancement du paiement</span>
+                  <span id="partialProgressText" class="text-amber-800">2 500 / 5 000 FCFA (50 %)</span>
+                </div>
+                <div class="w-full h-3 rounded-full bg-amber-200/70 overflow-hidden">
+                  <div id="partialProgressBar" class="h-full bg-gradient-to-r from-amber-500 to-forestDeep rounded-full transition-all duration-500" style="width: 50%"></div>
+                </div>
+                <div class="flex flex-wrap items-center justify-between gap-2 text-xs pt-1">
+                  <span class="font-bold text-red-700">
+                    Reste à payer : <strong id="partialRemainingText">2 500 FCFA</strong> — À solder avant le 26 Décembre 2026 à 18h00
+                  </span>
+                </div>
+              </div>
+
+              <!-- Bouton pour solder le reste via Wave -->
+              <div class="rounded-xl border border-waveBlue/50 bg-sky-50/60 p-4 flex flex-col sm:flex-row sm:items-center justify-between gap-3">
+                <div>
+                  <h4 class="text-sm font-extrabold text-waveNavy">Solder le reste via Wave</h4>
+                  <p class="text-xs text-gray-600">Bénéficiaire : <strong>JEUNESSE AD YOP N.Q EMMAÜS</strong></p>
+                </div>
+                <a
+                  href="https://pay.wave.com/m/M_ci_2d5ZaJJPaKuA/c/ci/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  class="py-2.5 px-4 rounded-xl bg-waveBlue hover:bg-waveBlueHover text-waveNavy font-extrabold text-xs sm:text-sm shadow-sm transition inline-flex items-center justify-center gap-2 shrink-0"
+                >
+                  <span class="w-5 h-5 rounded-full bg-waveNavy text-waveBlue font-black text-[10px] flex items-center justify-center">W</span>
+                  <span>Payer le solde avec Wave</span>
+                </a>
+              </div>
+
+              <!-- Déclarer la référence Wave du solde -->
+              <form id="declareWaveBalanceForm" class="rounded-xl border border-gray-200 bg-gray-50 p-3.5 flex flex-col sm:flex-row items-stretch sm:items-end gap-2.5">
+                <div class="flex-grow">
+                  <label for="declareWaveRefBalance" class="block text-[11px] font-bold text-gray-700 mb-1">
+                    Déclarer la référence Wave de votre solde :
+                  </label>
+                  <input
+                    type="text"
+                    id="declareWaveRefBalance"
+                    required
+                    placeholder="Saisissez la référence de transaction Wave"
+                    class="w-full px-3 py-2 rounded-lg border border-gray-300 bg-white text-xs font-mono"
+                  />
+                </div>
+                <button
+                  type="submit"
+                  class="py-2 px-4 rounded-lg bg-forestDeep hover:bg-forestDark text-white font-bold text-xs transition shrink-0 cursor-pointer"
+                >
+                  Signaler le solde
+                </button>
+              </form>
+            </div>
+
+            <!-- CAS 3 : amountPaid >= targetAmount (SOLDÉ — PASS GALA VALIDÉ) -->
+            <div id="statePaidFullContainer" class="hidden">
+              <div class="rounded-xl bg-emerald-50 border border-emerald-200 p-4 flex items-center gap-3.5">
+                <div class="w-11 h-11 rounded-xl bg-forestDeep text-galaGoldBright flex items-center justify-center shrink-0">
+                  <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5" d="M5 13l4 4L19 7"/></svg>
+                </div>
+                <div class="text-xs sm:text-sm text-emerald-950">
+                  <h4 class="font-extrabold text-forestDeep text-sm sm:text-base">Pass Gala 100 % Validé !</h4>
+                  <p class="mt-0.5 leading-relaxed">
+                    Partagez ou enregistrez votre <strong>Reçu Officiel (Image PNG)</strong> ci-dessous pour le présenter à l'accueil dans la nuit du <strong>31 Décembre 2026 au 1er Janvier 2027, dès 00h00</strong>.
+                  </p>
+                </div>
+              </div>
+            </div>
+
+          </div>
+        </div>
+
+        <!-- ================================================================= -->
+        <!-- APERÇU DU REÇU OFFICIEL EN IMAGE PNG (900x1200 px)                -->
+        <!-- Affiché UNIQUEMENT lorsque amountPaid > 0 (jamais de bouton Print) -->
+        <!-- ================================================================= -->
+        <div id="pngReceiptSection" class="hidden space-y-4 animate-fade-up">
+          <div class="bg-white rounded-2xl p-4 sm:p-6 shadow-lg border border-gray-200">
+            <div class="flex flex-wrap items-center justify-between gap-2 pb-3 mb-4 border-b border-gray-200">
+              <div>
+                <span class="text-[11px] font-extrabold uppercase tracking-wider text-forestDeep block">Preuve Officielle Numérique</span>
+                <h3 class="text-base sm:text-lg font-extrabold text-gray-900">Votre Reçu Officiel (Image PNG Haute Définition)</h3>
+              </div>
+              <span class="px-2.5 py-1 rounded-lg bg-amber-50 border border-galaGold text-forestDeep text-xs font-bold">
+                Prêt pour WhatsApp
+              </span>
+            </div>
+
+            <!-- Aperçu visuel de l'image PNG générée par le Canvas 900x1200 -->
+            <div class="max-w-md mx-auto rounded-xl overflow-hidden shadow-xl border border-gray-300 bg-gray-100">
+              <img
+                id="receiptPreviewImg"
+                alt="Reçu Officiel de Paiement — Dîner Gala La Vie Colorée"
+                class="w-full h-auto block"
+              />
+            </div>
+
+            <!-- UNIQUEMENT LES 2 BOUTONS D'ACTION IMAGE PNG (AUCUN BOUTON IMPRIMER) -->
+            <div class="mt-5 grid grid-cols-1 sm:grid-cols-2 gap-3 max-w-xl mx-auto">
+              <button
+                type="button"
+                id="shareReceiptPngWhatsappBtn"
+                class="py-3.5 px-5 rounded-xl bg-[#25D366] hover:bg-[#1EBE5D] text-white font-extrabold text-sm shadow-md transition flex items-center justify-center gap-2.5 cursor-pointer"
+              >
+                <svg class="w-5 h-5 fill-current shrink-0" viewBox="0 0 24 24"><path d="M12.031 6.172c-3.181 0-5.767 2.586-5.768 5.766-.001 1.298.38 2.27 1.019 3.287l-.582 2.128 2.182-.573c.978.58 1.911.928 3.145.929 3.178 0 5.767-2.587 5.768-5.766.001-3.187-2.575-5.77-5.764-5.771zm3.392 8.244c-.144.405-.837.774-1.17.824-.299.045-.677.063-1.092-.069-.252-.08-.575-.187-.988-.365-1.739-.751-2.874-2.502-2.961-2.617-.087-.116-.708-.94-.708-1.793s.448-1.273.607-1.446c.159-.173.346-.217.462-.217l.332.006c.106.005.249-.04.39.298.144.347.491 1.2.534 1.287.043.087.072.188.014.304-.058.116-.087.188-.173.289l-.26.304c-.087.086-.177.18-.076.354.101.174.449.741.964 1.201.662.591 1.221.774 1.394.86s.274.072.376-.043c.101-.116.433-.506.549-.68.116-.173.231-.145.39-.087s1.011.477 1.184.564.289.13.332.202c.045.072.045.419-.1.824z"/></svg>
+                <span>Partager l'image du reçu sur WhatsApp</span>
+              </button>
+
+              <button
+                type="button"
+                id="downloadReceiptPngBtn"
+                class="py-3.5 px-5 rounded-xl bg-forestDeep hover:bg-forestDark text-white font-extrabold text-sm shadow-md transition flex items-center justify-center gap-2.5 cursor-pointer"
+              >
+                <svg class="w-5 h-5 text-galaGoldBright shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2.2" d="M4 16v1a3 3 0 003 3h10a3 3 0 003-3v-1m-4-4l-4 4m0 0l-4-4m4 4V4"/></svg>
+                <span>Télécharger le reçu (Image PNG)</span>
+              </button>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </section>
+
+  </main>
+
+  <!-- ===================================================================== -->
+  <!-- PIED DE PAGE & ACCÈS ESPACE PÔLE FINANCES                             -->
+  <!-- ===================================================================== -->
+  <footer class="bg-white border-t border-gray-200 mt-auto">
+    <div class="max-w-5xl mx-auto px-4 sm:px-6 py-6 flex flex-col sm:flex-row items-center justify-between gap-4 text-xs text-gray-600">
+      <div class="text-center sm:text-left space-y-1">
+        <p class="font-extrabold text-forestDeep">
+          Infolines : 07 08 57 60 89 / 07 79 48 28 48 / 01 51 27 94 16
+        </p>
+        <p class="text-gray-500">
+          Église des Assemblées de Dieu &bull; Yopougon N. Quartier Temple Emmaüs — Dîner Gala « La Vie Colorée »
+        </p>
+      </div>
+      <div>
+        <button
+          type="button"
+          id="openFinancePinBtn"
+          class="inline-flex items-center gap-1.5 px-3.5 py-2 rounded-xl border border-gray-200 bg-gray-50 hover:bg-gray-100 text-gray-700 font-bold transition cursor-pointer"
+        >
+          <svg class="w-3.5 h-3.5 text-forestDeep" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 15v2m-6 4h12a2 2 0 002-2v-6a2 2 0 00-2-2H6a2 2 0 00-2 2v6a2 2 0 002 2zm10-10V7a4 4 0 00-8 0v4h8z"/></svg>
+          <span>Espace Pôle Finances</span>
+        </button>
+      </div>
+    </div>
+  </footer>
+
+  <!-- ===================================================================== -->
+  <!-- MODAL CODE PIN PÔLE FINANCES                                          -->
+  <!-- ===================================================================== -->
+  <div id="financePinModal" role="dialog" aria-modal="true" aria-label="Espace Pôle Finances" class="hidden fixed inset-0 z-50 bg-black/60 backdrop-blur-xs flex items-center justify-center p-4">
+    <div class="bg-white rounded-2xl max-w-sm w-full p-6 shadow-2xl border border-gray-200 animate-fade-up">
+      <div class="flex items-center justify-between mb-4">
+        <div class="flex items-center gap-2.5">
+          <div class="w-9 h-9 rounded-xl bg-forestDeep text-galaGoldBright flex items-center justify-center">
+            <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 15v2m-6 4h12a2 2 0 002-2v-6a2 2 0 00-2-2H6a2 2 0 00-2 2v6a2 2 0 002 2zm10-10V7a4 4 0 00-8 0v4h8z"/></svg>
+          </div>
+          <div>
+            <h3 class="text-base font-extrabold text-gray-900">Espace Pôle Finances</h3>
+            <p class="text-xs text-gray-500">Accès réservé aux trésoriers</p>
+          </div>
+        </div>
+        <button type="button" id="closeFinancePinModalBtn" class="text-gray-400 hover:text-gray-700 p-1 rounded-lg cursor-pointer">
+          <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 18L18 6M6 6l12 12"/></svg>
+        </button>
+      </div>
+
+      <form id="financePinForm" class="space-y-4">
+        <div>
+          <label for="financePinInput" class="block text-xs font-bold text-gray-700 uppercase tracking-wider mb-1.5">
+            Code d'accès Pôle Finances
+          </label>
+          <input
+            type="password"
+            id="financePinInput"
+            autocomplete="off"
+            maxlength="40"
+            placeholder="Code trésorier"
+            class="w-full px-4 py-3 text-center text-lg font-bold rounded-xl border border-gray-300 focus:outline-none focus:ring-2 focus:ring-forestDeep"
+          />
+          <p id="financePinError" class="hidden mt-1.5 text-xs text-red-600 font-semibold text-center">
+            Code incorrect.
+          </p>
+        </div>
+        <button
+          type="submit"
+          class="w-full py-3 rounded-xl bg-forestDeep hover:bg-forestDark text-white font-extrabold text-sm transition cursor-pointer"
+        >
+          Ouvrir le tableau de caisse
+        </button>
+      </form>
+    </div>
+  </div>
+
+  <!-- ===================================================================== -->
+  <!-- TABLEAU DE BORD PÔLE FINANCES (ADMINISTRATION)                        -->
+  <!-- ===================================================================== -->
+  <div id="financeAdminModal" role="dialog" aria-modal="true" aria-label="Tableau de bord Pôle Finances" class="hidden fixed inset-0 z-50 bg-black/75 backdrop-blur-xs overflow-y-auto p-3 sm:p-6">
+    <div class="bg-white rounded-2xl max-w-6xl w-full mx-auto shadow-2xl border border-gray-200 overflow-hidden my-3 animate-fade-up">
+
+      <!-- Barre supérieure Admin -->
+      <div class="bg-forestDeep px-5 sm:px-7 py-4 flex flex-col sm:flex-row sm:items-center justify-between gap-3">
+        <div>
+          <span class="text-[10px] font-extrabold uppercase tracking-wider text-galaGoldBright block">Trésorerie &amp; Contrôle</span>
+          <h3 class="text-base sm:text-lg font-extrabold text-white">Tableau de Bord — Pôle Finances JADEM</h3>
+        </div>
+
+        <div class="flex flex-wrap items-center gap-2">
+          <button
+            type="button"
+            id="openWalkInCashModalBtn"
+            class="inline-flex items-center gap-1.5 px-3.5 py-2 rounded-xl bg-galaGold hover:bg-galaGoldBright text-forestDeep font-extrabold text-xs shadow transition cursor-pointer"
+          >
+            <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5" d="M12 4v16m8-8H4"/></svg>
+            <span>+ Encaisser un paiement Espèces direct</span>
+          </button>
+
+          <button
+            type="button"
+            id="exportAdminCsvBtn"
+            class="inline-flex items-center gap-1.5 px-3.5 py-2 rounded-xl bg-white/15 hover:bg-white/25 text-white font-bold text-xs transition cursor-pointer"
+          >
+            <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 16v1a3 3 0 003 3h10a3 3 0 003-3v-1m-4-4l-4 4m0 0l-4-4m4 4V4"/></svg>
+            <span>Exporter Excel (CSV)</span>
+          </button>
+
+          <button
+            type="button"
+            id="closeFinanceAdminModalBtn"
+            class="p-2 rounded-xl bg-white/10 hover:bg-white/20 text-white transition cursor-pointer"
+            title="Fermer"
+          >
+            <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 18L18 6M6 6l12 12"/></svg>
+          </button>
+        </div>
+      </div>
+
+      <div class="p-5 sm:p-7 space-y-6">
+
+        <!-- 5 Cartes KPI -->
+        <div class="grid grid-cols-2 sm:grid-cols-5 gap-3">
+          <div class="rounded-xl border border-gray-200 bg-gray-50 p-3.5">
+            <span class="text-[11px] font-bold uppercase text-gray-500 block">Total Inscrits</span>
+            <span id="kpiTotalInscrits" class="text-2xl font-extrabold text-gray-900 mt-1 block">0</span>
+          </div>
+
+          <div class="rounded-xl border border-emerald-200 bg-emerald-50/70 p-3.5">
+            <span class="text-[11px] font-bold uppercase text-forestDeep block">Pass Soldés</span>
+            <span id="kpiSoldes" class="text-2xl font-extrabold text-forestDeep mt-1 block">0</span>
+          </div>
+
+          <div class="rounded-xl border border-amber-200 bg-amber-50/70 p-3.5">
+            <span class="text-[11px] font-bold uppercase text-amber-800 block">Paiements Partiels</span>
+            <span id="kpiPartiels" class="text-2xl font-extrabold text-amber-700 mt-1 block">0</span>
+          </div>
+
+          <div class="rounded-xl border border-forestDeep bg-forestDeep text-white p-3.5">
+            <span class="text-[11px] font-bold uppercase text-galaGoldLight block">Total Encaissé</span>
+            <span id="kpiTotalEncaisse" class="text-base sm:text-lg font-extrabold text-white mt-1 block">0 FCFA</span>
+          </div>
+
+          <div class="col-span-2 sm:col-span-1 rounded-xl border border-red-200 bg-red-50/70 p-3.5">
+            <span class="text-[11px] font-bold uppercase text-red-800 block">Reste à Recouvrer</span>
+            <span id="kpiResteRecouvrer" class="text-base sm:text-lg font-extrabold text-red-700 mt-1 block">0 FCFA</span>
+          </div>
+        </div>
+
+        <!-- Filtres & Recherche -->
+        <div class="grid grid-cols-1 sm:grid-cols-12 gap-3">
+          <div class="sm:col-span-5">
+            <input
+              type="text"
+              id="adminSearchInput"
+              placeholder="Rechercher nom, prénoms, N° pass ou WhatsApp..."
+              class="w-full px-4 py-2.5 rounded-xl border border-gray-300 text-sm focus:outline-none focus:ring-2 focus:ring-forestDeep"
+            />
+          </div>
+          <div class="sm:col-span-4">
+            <select
+              id="adminFilterUnite"
+              class="w-full px-3.5 py-2.5 rounded-xl border border-gray-300 text-sm font-semibold bg-white focus:outline-none focus:ring-2 focus:ring-forestDeep"
+            >
+              <option value="ALL">Toutes les unités</option>
+              <option value="DUNAMIS DE CHRIST">DUNAMIS DE CHRIST</option>
+              <option value="ELISHA">ELISHA</option>
+              <option value="LES GEDEONITES DE JESSE">LES GEDEONITES DE JESSE</option>
+              <option value="ORAH GENERATION">ORAH GENERATION</option>
+              <option value="Autre">Autre</option>
+            </select>
+          </div>
+          <div class="sm:col-span-3">
+            <select
+              id="adminFilterStatus"
+              class="w-full px-3.5 py-2.5 rounded-xl border border-gray-300 text-sm font-semibold bg-white focus:outline-none focus:ring-2 focus:ring-forestDeep"
+            >
+              <option value="ALL">Tous les statuts</option>
+              <option value="SOLDE">Soldé (100 %)</option>
+              <option value="PARTIEL">Paiement Partiel</option>
+              <option value="ATTENTE">En attente (0 F)</option>
+              <option value="WAVE_DECLARED">Déclaration Wave à vérifier</option>
+            </select>
+          </div>
+        </div>
+
+        <!-- Tableau des participants -->
+        <div class="overflow-x-auto border border-gray-200 rounded-xl">
+          <table class="min-w-full divide-y divide-gray-200 text-left text-xs sm:text-sm">
+            <thead class="bg-gray-100 text-gray-700 font-extrabold uppercase text-[11px] tracking-wider">
+              <tr>
+                <th class="px-3.5 py-3">N° Pass</th>
+                <th class="px-3.5 py-3">Participant</th>
+                <th class="px-3.5 py-3">Unité</th>
+                <th class="px-3.5 py-3">WhatsApp</th>
+                <th class="px-3.5 py-3">Versé / Total</th>
+                <th class="px-3.5 py-3">Mode &amp; Réf.</th>
+                <th class="px-3.5 py-3">Statut</th>
+                <th class="px-3.5 py-3 text-right">Actions</th>
+              </tr>
+            </thead>
+            <tbody id="adminRegistrantsTbody" class="divide-y divide-gray-200 bg-white"></tbody>
+          </table>
+        </div>
+
+      </div>
+    </div>
+  </div>
+
+  <!-- ===================================================================== -->
+  <!-- SOUS-MODAL A : ENCAISSER / MODIFIER UN PARTICIPANT                    -->
+  <!-- ===================================================================== -->
+  <div id="editPaymentModal" role="dialog" aria-modal="true" aria-label="Encaisser ou modifier un paiement" class="hidden fixed inset-0 z-[60] bg-black/70 flex items-center justify-center p-4">
+    <div class="bg-white rounded-2xl max-w-md w-full p-6 shadow-2xl border border-gray-200 animate-fade-up">
+      <div class="flex items-center justify-between pb-3 border-b border-gray-200">
+        <div>
+          <span id="editPayTicketBadge" class="font-mono text-xs font-extrabold text-forestDeep bg-emerald-50 px-2 py-0.5 rounded">JADEM-2026-001</span>
+          <h4 id="editPayName" class="text-base font-extrabold text-gray-900 mt-1">KOUASSI Jean-Marc</h4>
+        </div>
+        <button type="button" id="closeEditPaymentModalBtn" class="text-gray-400 hover:text-gray-700 p-1 cursor-pointer">
+          <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 18L18 6M6 6l12 12"/></svg>
+        </button>
+      </div>
+
+      <form id="editPaymentForm" class="mt-4 space-y-4">
+        <div class="grid grid-cols-3 gap-2 text-center bg-gray-50 p-3 rounded-xl border border-gray-200 text-xs">
+          <div>
+            <span class="text-gray-500 block">Coût Pass</span>
+            <span id="editPayTotalDue" class="font-extrabold text-gray-900">5 000 F</span>
+          </div>
+          <div>
+            <span class="text-gray-500 block">Déjà versé</span>
+            <span id="editPayCurrentPaid" class="font-extrabold text-forestDeep">0 F</span>
+          </div>
+          <div>
+            <span class="text-gray-500 block">Reste dû</span>
+            <span id="editPayCurrentRemaining" class="font-extrabold text-red-600">5 000 F</span>
+          </div>
+        </div>
+
+        <div id="editPayHistory" class="text-[11px] text-gray-600 space-y-0.5 px-1"></div>
+
+        <div>
+          <label class="block text-xs font-bold text-gray-700 uppercase mb-1.5">Opération</label>
+          <div class="grid grid-cols-2 gap-2 text-xs">
+            <label class="flex items-center gap-2 p-2.5 rounded-lg border border-gray-300 bg-white cursor-pointer font-bold">
+              <input type="radio" name="editPayOperation" value="ADD" checked class="accent-[#0D4A1E]" />
+              <span>Ajouter un versement</span>
+            </label>
+            <label class="flex items-center gap-2 p-2.5 rounded-lg border border-gray-300 bg-white cursor-pointer font-bold">
+              <input type="radio" name="editPayOperation" value="SET" class="accent-[#0D4A1E]" />
+              <span>Fixer le total versé</span>
+            </label>
+          </div>
+        </div>
+
+        <div>
+          <label for="editPayAmountInput" class="block text-xs font-bold text-gray-700 uppercase mb-1">
+            Montant (FCFA)
+          </label>
+          <input
+            type="number"
+            id="editPayAmountInput"
+            min="0"
+            step="100"
+            required
+            class="w-full px-4 py-2.5 rounded-xl border border-gray-300 font-extrabold text-base text-gray-900 focus:outline-none focus:ring-2 focus:ring-forestDeep"
+          />
+          <div class="flex flex-wrap gap-1.5 mt-2">
+            <button type="button" data-quick-amount="2500" class="quick-pay-btn px-2.5 py-1 rounded-lg bg-amber-100 hover:bg-amber-200 text-amber-900 font-bold text-xs cursor-pointer">2 500 F (Acompte)</button>
+            <button type="button" data-quick-amount="5000" class="quick-pay-btn px-2.5 py-1 rounded-lg bg-emerald-100 hover:bg-emerald-200 text-forestDeep font-bold text-xs cursor-pointer">5 000 F</button>
+            <button type="button" id="quickPayRemainingBtn" class="px-2.5 py-1 rounded-lg bg-sky-100 hover:bg-sky-200 text-sky-900 font-bold text-xs cursor-pointer">Solder le reste</button>
+          </div>
+        </div>
+
+        <div class="grid grid-cols-2 gap-3">
+          <div>
+            <label for="editPayModeSelect" class="block text-xs font-bold text-gray-700 uppercase mb-1">
+              Mode de règlement
+            </label>
+            <select id="editPayModeSelect" class="w-full px-3 py-2.5 rounded-xl border border-gray-300 text-xs sm:text-sm font-bold bg-white">
+              <option value="Wave">Wave</option>
+              <option value="Espèces">Espèces</option>
+            </select>
+          </div>
+          <div>
+            <label for="editPayTableInput" class="block text-xs font-bold text-gray-700 uppercase mb-1">
+              Table / Bracelet
+            </label>
+            <input
+              type="text"
+              id="editPayTableInput"
+              placeholder="Ex: Table Or #2"
+              class="w-full px-3 py-2.5 rounded-xl border border-gray-300 text-xs sm:text-sm"
+            />
+          </div>
+        </div>
+
+        <div>
+          <label for="editPayRefInput" class="block text-xs font-bold text-gray-700 uppercase mb-1">
+            Référence Wave / Visa Caisse
+          </label>
+          <input
+            type="text"
+            id="editPayRefInput"
+            placeholder="Ex: ID Wave ou Reçu Caisse #05"
+            class="w-full px-3.5 py-2.5 rounded-xl border border-gray-300 text-sm"
+          />
+        </div>
+
+        <button
+          type="submit"
+          class="w-full py-3.5 rounded-xl bg-forestDeep hover:bg-forestDark text-white font-extrabold text-sm shadow transition cursor-pointer"
+        >
+          Enregistrer &amp; Débloquer le Reçu PNG
+        </button>
+      </form>
+    </div>
+  </div>
+
+  <!-- ===================================================================== -->
+  <!-- SOUS-MODAL B : ENCAISSER UN PAIEMENT ESPÈCES DIRECT                   -->
+  <!-- ===================================================================== -->
+  <div id="walkInCashModal" role="dialog" aria-modal="true" aria-label="Encaissement espèces direct" class="hidden fixed inset-0 z-[60] bg-black/70 overflow-y-auto p-4">
+    <div class="bg-white rounded-2xl max-w-md w-full mx-auto my-6 p-6 shadow-2xl border border-gray-200 animate-fade-up">
+      <div class="flex items-center justify-between pb-3 border-b border-gray-200">
+        <div>
+          <span class="text-[10px] font-extrabold uppercase tracking-wider text-galaGold block">Encaissement Direct Caisse</span>
+          <h4 class="text-base font-extrabold text-gray-900">Nouveau Paiement en Espèces</h4>
+        </div>
+        <button type="button" id="closeWalkInCashModalBtn" class="text-gray-400 hover:text-gray-700 p-1 cursor-pointer">
+          <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 18L18 6M6 6l12 12"/></svg>
+        </button>
+      </div>
+
+      <form id="walkInCashForm" class="mt-4 space-y-3.5">
+        <div class="grid grid-cols-2 gap-3">
+          <div>
+            <label class="block text-xs font-bold text-gray-700 mb-1">Nom *</label>
+            <input type="text" id="walkInNom" required placeholder="KOUASSI" class="w-full px-3 py-2.5 rounded-xl border border-gray-300 text-sm font-bold uppercase" />
+          </div>
+          <div>
+            <label class="block text-xs font-bold text-gray-700 mb-1">Prénoms *</label>
+            <input type="text" id="walkInPrenoms" required placeholder="Jean-Marc" class="w-full px-3 py-2.5 rounded-xl border border-gray-300 text-sm" />
+          </div>
+        </div>
+
+        <div>
+          <label class="block text-xs font-bold text-gray-700 mb-1">Numéro WhatsApp (10 chiffres) *</label>
+          <input type="tel" id="walkInPhone" inputmode="numeric" required placeholder="0708576089" class="w-full px-3 py-2.5 rounded-xl border border-gray-300 text-sm font-bold" />
+        </div>
+
+        <div>
+          <label class="block text-xs font-bold text-gray-700 mb-1">Unité de jeunesse *</label>
+          <select id="walkInUnite" required class="w-full px-3 py-2.5 rounded-xl border border-gray-300 text-sm font-semibold bg-white">
+            <option value="DUNAMIS DE CHRIST">DUNAMIS DE CHRIST</option>
+            <option value="ELISHA">ELISHA</option>
+            <option value="LES GEDEONITES DE JESSE">LES GEDEONITES DE JESSE</option>
+            <option value="ORAH GENERATION">ORAH GENERATION</option>
+            <option value="Autre">Autre</option>
+          </select>
+        </div>
+
+        <div id="walkInAutreBox" class="hidden">
+          <label class="block text-xs font-bold text-gray-700 mb-1">Précisez l'unité ou statut *</label>
+          <input type="text" id="walkInAutreInput" placeholder="Ex: Invité, Chorale..." class="w-full px-3 py-2 rounded-xl border border-gray-300 text-sm" />
+        </div>
+
+        <div class="grid grid-cols-2 gap-3">
+          <div>
+            <label class="block text-xs font-bold text-gray-700 mb-1">Formule Pass *</label>
+            <select id="walkInFormule" class="w-full px-3 py-2.5 rounded-xl border border-gray-300 text-xs font-bold bg-white">
+              <option value="5000">Standard (5 000 F)</option>
+              <option value="7000">Solidarité (7 000 F)</option>
+            </select>
+          </div>
+          <div>
+            <label class="block text-xs font-bold text-gray-700 mb-1">Espèces reçues (FCFA) *</label>
+            <input type="number" id="walkInAmount" min="500" step="100" value="5000" required class="w-full px-3 py-2.5 rounded-xl border border-gray-300 text-sm font-extrabold text-forestDeep" />
+          </div>
+        </div>
+
+        <div>
+          <label class="block text-xs font-bold text-gray-700 mb-1">Référence / Visa Caissier</label>
+          <input type="text" id="walkInNote" placeholder="Ex: Encaissé après culte par Trésorier" class="w-full px-3 py-2 rounded-xl border border-gray-300 text-xs" />
+        </div>
+
+        <button
+          type="submit"
+          class="w-full py-3.5 rounded-xl bg-forestDeep hover:bg-forestDark text-white font-extrabold text-sm shadow transition cursor-pointer"
+        >
+          Valider l'encaissement &amp; Générer le Reçu PNG
+        </button>
+      </form>
+    </div>
+  </div>
+
+  <!-- ===================================================================== -->
+  <!-- SOUS-MODAL C : APERÇU REÇU PNG CÔTÉ ADMIN                             -->
+  <!-- ===================================================================== -->
+  <div id="adminReceiptPreviewModal" role="dialog" aria-modal="true" aria-label="Aperçu du reçu" class="hidden fixed inset-0 z-[60] bg-black/75 overflow-y-auto p-4">
+    <div class="bg-white rounded-2xl max-w-md w-full mx-auto my-4 p-5 shadow-2xl border border-gray-200 animate-fade-up">
+      <div class="flex items-center justify-between pb-3 mb-3 border-b border-gray-200">
+        <h4 class="text-sm font-extrabold text-forestDeep">Aperçu du Reçu Officiel (PNG)</h4>
+        <button type="button" id="closeAdminReceiptPreviewBtn" class="text-gray-400 hover:text-gray-700 p-1 cursor-pointer">
+          <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 18L18 6M6 6l12 12"/></svg>
+        </button>
+      </div>
+
+      <div class="rounded-xl overflow-hidden border border-gray-300 shadow">
+        <img id="adminReceiptPreviewImg" alt="Reçu PNG participant" class="w-full h-auto block" />
+      </div>
+
+      <div class="mt-4 grid grid-cols-2 gap-2.5">
+        <button
+          type="button"
+          id="adminSharePngBtn"
+          class="py-3 px-3 rounded-xl bg-[#25D366] hover:bg-[#1EBE5D] text-white font-extrabold text-xs shadow transition flex items-center justify-center gap-1.5 cursor-pointer"
+        >
+          <span>Partager sur WhatsApp</span>
+        </button>
+        <button
+          type="button"
+          id="adminDownloadPngBtn"
+          class="py-3 px-3 rounded-xl bg-forestDeep hover:bg-forestDark text-white font-extrabold text-xs shadow transition flex items-center justify-center gap-1.5 cursor-pointer"
+        >
+          <span>Télécharger PNG</span>
+        </button>
+      </div>
+    </div>
+  </div>
+
+  <!-- Canvas caché haute résolution (900x1200 px) pour générer les reçus PNG -->
+  <canvas id="receiptGeneratorCanvas" width="900" height="1200" class="hidden"></canvas>
+
+  <!-- Conteneur Toast -->
+  <div id="toastContainer" role="status" aria-live="polite" class="fixed bottom-5 right-5 z-[70] flex flex-col gap-2 pointer-events-none"></div>
+
+  <!-- ===================================================================== -->
+  <!-- LOGIQUE APPLICATIVE, STOCKAGE LOCAL & GÉNÉRATEUR PNG HAUTE RÉSOLUTION -->
+  <!-- ===================================================================== -->
+  <script>
+    const WAVE_PAYMENT_URL = "https://pay.wave.com/m/M_ci_2d5ZaJJPaKuA/c/ci/";
+    // URL du déploiement Google Apps Script (se termine par /exec)
+    const API_URL = "https://script.google.com/macros/s/AKfycbwFz9G4xeawAVYc7Fn6BMkPABFec7UujYyWY869CSMd8RM_hRsU6t-o84116aepqf_P/exec";
+    let adminCode = "";
+    let inflight = false;
+    async function api(action, payload = {}) {
+      if (!API_URL.startsWith('https://')) throw Object.assign(new Error("Serveur non configuré."), { code: 'CONFIG' });
+      if (inflight) throw Object.assign(new Error("Opération en cours, patientez…"), { code: 'BUSY' });
+      inflight = true; document.body.style.cursor = 'progress';
+      try {
+        const res = await fetch(API_URL, { method: 'POST', headers: { 'Content-Type': 'text/plain;charset=utf-8' }, body: JSON.stringify({ action, ...payload }) });
+        const data = await res.json();
+        if (!data.ok) throw Object.assign(new Error(data.error || 'Erreur'), { code: data.code, data });
+        return data;
+      } catch (err) {
+        if (err.code) throw err;
+        throw Object.assign(new Error("Connexion impossible. Vérifiez internet et réessayez."), { code: 'NETWORK' });
+      } finally { inflight = false; document.body.style.cursor = ''; }
+    }
+    function upsertLocal(rec) {
+      const i = registrations.findIndex(r => r.id === rec.id);
+      if (i >= 0) registrations[i] = rec; else registrations.unshift(rec);
+    }
+    const STORAGE_KEY = "jadem_gala_vie_coloree_2026_v2";
+    const SEQ_KEY = "jadem_gala_seq";
+    const LAST_KEY = "jadem_gala_last";
+    // Les dossiers de démonstration ne s'affichent que sur ...?demo=1
+    const DEMO_MODE = new URLSearchParams(location.search).has('demo');
+
+    // 3 dossiers de démonstration pré-chargés pour tester instantanément les 3 statuts & le reçu PNG
+    const DEMO_REGISTRATIONS = [
+      {
+        id: "demo-1",
+        ticketCode: "JADEM-2026-001",
+        nom: "KOUASSI",
+        prenoms: "Jean-Marc",
+        phone: "0708576089",
+        unite: "DUNAMIS DE CHRIST",
+        autreUniteDetail: "",
+        uniteAffichee: "DUNAMIS DE CHRIST",
+        formuleLabel: "Pass Standard — 5 000 FCFA",
+        targetAmount: 5000,
+        amountPaid: 5000,
+        paymentMethod: "Wave",
+        waveRef: "WV-849201",
+        tableBracelet: "Table Émeraude #1",
+        waveDeclarationPending: false,
+        validatedDate: "20/11/2026",
+        createdAtMs: 1795180000000
+      },
+      {
+        id: "demo-2",
+        ticketCode: "JADEM-2026-002",
+        nom: "KONAN",
+        prenoms: "Aya Grâce",
+        phone: "0779482848",
+        unite: "ORAH GENERATION",
+        autreUniteDetail: "",
+        uniteAffichee: "ORAH GENERATION",
+        formuleLabel: "Pass Standard — 5 000 FCFA",
+        targetAmount: 5000,
+        amountPaid: 2500,
+        paymentMethod: "Espèces",
+        waveRef: "Acompte Caisse #02",
+        tableBracelet: "",
+        waveDeclarationPending: false,
+        validatedDate: "20/11/2026",
+        createdAtMs: 1795175000000
+      },
+      {
+        id: "demo-3",
+        ticketCode: "JADEM-2026-003",
+        nom: "YAO",
+        prenoms: "Samuel",
+        phone: "0151279416",
+        unite: "ELISHA",
+        autreUniteDetail: "",
+        uniteAffichee: "ELISHA",
+        formuleLabel: "Pass Standard — 5 000 FCFA",
+        targetAmount: 5000,
+        amountPaid: 0,
+        paymentMethod: "Wave",
+        waveRef: "",
+        tableBracelet: "",
+        waveDeclarationPending: false,
+        validatedDate: "",
+        createdAtMs: 1795170000000
+      }
+    ];
+
+    let registrations = [];
+    let activeParticipantId = null;
+    let activeAdminPreviewRecord = null;
+    let pendingDeleteId = null;
+
+    // Gestion sécurisée du localStorage
+    function loadRegistrations() { registrations = []; }   // les données vivent sur le serveur
+    function saveRegistrations() {}                        // conservé pour compatibilité
+
+    // Utilitaires
+    function normalizePhone(raw) {
+      let digits = String(raw || '').replace(/\D/g, '');
+      if (digits.startsWith('225') && digits.length === 13) {
+        digits = digits.slice(3);
+      }
+      return digits;
+    }
+
+    function formatPhoneDisplay(digits) {
+      const clean = normalizePhone(digits);
+      if (clean.length === 10) {
+        return clean.replace(/(\d{2})(\d{2})(\d{2})(\d{2})(\d{2})/, '$1 $2 $3 $4 $5');
+      }
+      return digits || '';
+    }
+
+    function formatCurrency(amount) {
+      return `${(Number(amount) || 0).toLocaleString('fr-FR')} FCFA`;
+    }
+
+    function escapeHtml(str) {
+      return String(str || '')
+        .replace(/&/g, "&amp;")
+        .replace(/</g, "&lt;")
+        .replace(/>/g, "&gt;")
+        .replace(/"/g, "&quot;")
+        .replace(/'/g, "&#039;");
+    }
+
+    async function saveFile(filename, data) {
+      try {
+        const dl = window.claude ? await window.claude.use('downloads') : null;
+        if (dl) {
+          try { await dl.save({ filename, data }); return true; }
+          catch (e) { if (e && e.code === 'declined') return false; }
+        }
+      } catch (e) { /* repli ci-dessous */ }
+      const blob = data instanceof Blob ? data : new Blob([data], { type: 'text/csv;charset=utf-8;' });
+      const url = URL.createObjectURL(blob);
+      const a = document.createElement('a');
+      a.href = url; a.download = filename;
+      document.body.appendChild(a); a.click(); document.body.removeChild(a);
+      setTimeout(() => URL.revokeObjectURL(url), 1000);
+      return true;
+    }
+
+    function showToast(message, type = 'success') {
+      const container = document.getElementById('toastContainer');
+      const toast = document.createElement('div');
+      const bgStyle = type === 'error'
+        ? 'bg-red-600 text-white'
+        : type === 'info'
+          ? 'bg-waveNavy text-white border border-waveBlue/50'
+          : 'bg-forestDeep text-white border border-galaGold/70';
+
+      toast.className = `${bgStyle} px-4 py-3 rounded-xl shadow-xl text-xs sm:text-sm font-bold flex items-center gap-2.5 animate-fade-up pointer-events-auto max-w-xs sm:max-w-md`;
+      toast.innerHTML = `
+        <span class="w-2.5 h-2.5 rounded-full ${type === 'error' ? 'bg-white' : 'bg-galaGoldBright'} shrink-0"></span>
+        <span>${escapeHtml(message)}</span>
+      `;
+      container.appendChild(toast);
+      setTimeout(() => {
+        toast.style.opacity = '0';
+        toast.style.transition = 'opacity 0.25s ease';
+        setTimeout(() => toast.remove(), 260);
+      }, 4000);
+    }
+
+    async function copyTextToClipboard(text, okMsg = "Lien officiel Wave copié !") {
+      try { await navigator.clipboard.writeText(text); showToast(okMsg); return; } catch (e) { /* repli ci-dessous */ }
+      try {
+        const ta = document.createElement("textarea");
+        ta.value = text; ta.style.position = "fixed"; ta.style.left = "-9999px";
+        document.body.appendChild(ta); ta.select();
+        const ok = document.execCommand('copy');
+        document.body.removeChild(ta);
+        showToast(ok ? okMsg : "Copiez le texte manuellement.", ok ? "success" : "info");
+      } catch (err) { showToast("Impossible de copier automatiquement.", "error"); }
+    }
+
+    function generateUniqueTicketCode() {
+      // Compteur croissant : un N° supprimé n'est jamais réattribué
+      const used = registrations.map(r => parseInt(String(r.ticketCode).split('-').pop(), 10) || 0);
+      let seq = 0;
+      try { seq = parseInt(localStorage.getItem(SEQ_KEY), 10) || 0; } catch (e) {}
+      seq = Math.max(seq, ...used) + 1;
+      try { localStorage.setItem(SEQ_KEY, String(seq)); } catch (e) {}
+      return `JADEM-2026-${String(seq).padStart(3, '0')}`;
+    }
+
+    function getTodayFormatted() {
+      return new Date().toLocaleDateString('fr-FR', { day: '2-digit', month: '2-digit', year: 'numeric' });
+    }
+
+    // =====================================================================
+    // GÉNÉRATEUR D'IMAGE PNG HAUTE RÉSOLUTION (900 x 1200 px) SUR CANVAS
+    // =====================================================================
+    function drawRoundedRect(ctx, x, y, w, h, r) {
+      ctx.beginPath();
+      ctx.moveTo(x + r, y);
+      ctx.lineTo(x + w - r, y);
+      ctx.quadraticCurveTo(x + w, y, x + w, y + r);
+      ctx.lineTo(x + w, y + h - r);
+      ctx.quadraticCurveTo(x + w, y + h, x + w - r, y + h);
+      ctx.lineTo(x + r, y + h);
+      ctx.quadraticCurveTo(x, y + h, x, y + h - r);
+      ctx.lineTo(x, y + r);
+      ctx.quadraticCurveTo(x, y, x + r, y);
+      ctx.closePath();
+    }
+
+    function drawRainbowStripOnCanvas(ctx, x, y, width, height) {
+      const grad = ctx.createLinearGradient(x, y, x + width, y);
+      grad.addColorStop(0.0, "#E63946");
+      grad.addColorStop(0.2, "#F77F00");
+      grad.addColorStop(0.4, "#FCBF49");
+      grad.addColorStop(0.6, "#2A9D8F");
+      grad.addColorStop(0.8, "#3A86FF");
+      grad.addColorStop(1.0, "#8338EC");
+      ctx.fillStyle = grad;
+      ctx.fillRect(x, y, width, height);
+    }
+
+    function drawEmblemOnCanvas(ctx, cx, cy, radius) {
+      ctx.save();
+      // Cercle extérieur doré et forêt
+      ctx.beginPath();
+      ctx.arc(cx, cy, radius, 0, Math.PI * 2);
+      ctx.fillStyle = "#1B4332";
+      ctx.fill();
+      ctx.lineWidth = 3.5;
+      ctx.strokeStyle = "#D4AF37";
+      ctx.stroke();
+
+      // Cercle intérieur pointillé
+      ctx.beginPath();
+      ctx.arc(cx, cy, radius - 6, 0, Math.PI * 2);
+      ctx.setLineDash([4, 4]);
+      ctx.lineWidth = 1.2;
+      ctx.strokeStyle = "#F2B705";
+      ctx.stroke();
+      ctx.setLineDash([]);
+
+      // Croix blanche
+      ctx.fillStyle = "#FFFFFF";
+      ctx.fillRect(cx - 3.5, cy - 26, 7, 36);
+      ctx.fillRect(cx - 16, cy - 15, 32, 6.5);
+
+      // Colombe blanche stylisée
+      ctx.beginPath();
+      ctx.moveTo(cx - 10, cy - 22);
+      ctx.bezierCurveTo(cx - 18, cy - 29, cx - 28, cy - 28, cx - 32, cy - 22);
+      ctx.bezierCurveTo(cx - 25, cy - 21, cx - 21, cy - 18, cx - 19, cy - 14);
+      ctx.bezierCurveTo(cx - 24, cy - 14, cx - 28, cy - 11, cx - 30, cy - 8);
+      ctx.bezierCurveTo(cx - 21, cy - 8, cx - 14, cy - 12, cx - 9, cy - 18);
+      ctx.closePath();
+      ctx.fillStyle = "#FFFFFF";
+      ctx.fill();
+
+      // Bible ouverte dorée
+      ctx.fillStyle = "#F2B705";
+      ctx.beginPath();
+      ctx.moveTo(cx - 26, cy + 14);
+      ctx.quadraticCurveTo(cx - 13, cy + 9, cx, cy + 17);
+      ctx.quadraticCurveTo(cx + 13, cy + 9, cx + 26, cy + 14);
+      ctx.lineTo(cx + 26, cy + 26);
+      ctx.quadraticCurveTo(cx + 13, cy + 21, cx, cy + 29);
+      ctx.quadraticCurveTo(cx - 13, cy + 21, cx - 26, cy + 26);
+      ctx.closePath();
+      ctx.fill();
+
+      ctx.strokeStyle = "#0D4A1E";
+      ctx.lineWidth = 2;
+      ctx.beginPath();
+      ctx.moveTo(cx, cy + 17);
+      ctx.lineTo(cx, cy + 29);
+      ctx.stroke();
+
+      ctx.restore();
+    }
+
+    function drawDeterministicSealMatrix(ctx, x, y, size, seedText) {
+      ctx.save();
+      drawRoundedRect(ctx, x, y, size, size, 10);
+      ctx.fillStyle = "#FFFFFF";
+      ctx.fill();
+      ctx.lineWidth = 2.5;
+      ctx.strokeStyle = "#0D4A1E";
+      ctx.stroke();
+
+      const cells = 7;
+      const pad = 10;
+      const cellSize = (size - pad * 2) / cells;
+      let hash = 0;
+      for (let i = 0; i < seedText.length; i++) {
+        hash = ((hash << 5) - hash) + seedText.charCodeAt(i);
+        hash |= 0;
+      }
+
+      ctx.fillStyle = "#0D4A1E";
+      for (let r = 0; r < cells; r++) {
+        for (let c = 0; c < cells; c++) {
+          const isCorner = (r < 2 && c < 2) || (r < 2 && c >= cells - 2) || (r >= cells - 2 && c < 2);
+          const bit = ((Math.abs(hash) >> ((r * cells + c) % 24)) & 1) === 1;
+          if (isCorner || bit) {
+            ctx.fillRect(x + pad + c * cellSize + 1, y + pad + r * cellSize + 1, cellSize - 2, cellSize - 2);
+          }
+        }
+      }
+      ctx.restore();
+    }
+
+    function wrapCanvasText(ctx, text, x, y, maxWidth, lineHeight) {
+      const words = String(text || '').split(' ');
+      let line = '';
+      let currentY = y;
+      for (let n = 0; n < words.length; n++) {
+        const testLine = line + words[n] + ' ';
+        const metrics = ctx.measureText(testLine);
+        if (metrics.width > maxWidth && n > 0) {
+          ctx.fillText(line.trim(), x, currentY);
+          line = words[n] + ' ';
+          currentY += lineHeight;
+        } else {
+          line = testLine;
+        }
+      }
+      ctx.fillText(line.trim(), x, currentY);
+      return currentY;
+    }
+
+    /**
+     * Génère le reçu officiel en image PNG haute résolution (900x1200 px)
+     * Retourne une Data URL PNG prête pour affichage <img>, téléchargement ou partage WhatsApp.
+     */
+    function generateReceiptPNG(record) {
+      const canvas = document.getElementById('receiptGeneratorCanvas');
+      const ctx = canvas.getContext('2d');
+      const W = 900;
+      const H = 1200;
+
+      const targetAmount = Number(record.targetAmount) || 5000;
+      const amountPaid = Number(record.amountPaid) || 0;
+      const remaining = Math.max(0, targetAmount - amountPaid);
+      const isFull = amountPaid >= targetAmount;
+
+      // 1. Fond ivoire chaleureux
+      ctx.fillStyle = "#F8FAF9";
+      ctx.fillRect(0, 0, W, H);
+
+      // Filigrane discret en arrière-plan
+      ctx.save();
+      ctx.fillStyle = "rgba(13, 74, 30, 0.032)";
+      ctx.font = "800 28px 'Plus Jakarta Sans', sans-serif";
+      ctx.rotate(-0.22);
+      for (let wy = 100; wy < 1400; wy += 130) {
+        for (let wx = -250; wx < 1100; wx += 420) {
+          ctx.fillText("TEMPLE EMMAÜS • LA VIE COLORÉE", wx, wy);
+        }
+      }
+      ctx.restore();
+
+      // 2. Cadres extérieurs forêt & or
+      ctx.strokeStyle = "#0D4A1E";
+      ctx.lineWidth = 10;
+      ctx.strokeRect(5, 5, W - 10, H - 10);
+
+      ctx.strokeStyle = "#D4AF37";
+      ctx.lineWidth = 3;
+      ctx.strokeRect(18, 18, W - 36, H - 36);
+
+      // 3. Ruban arc-en-ciel supérieur
+      drawRainbowStripOnCanvas(ctx, 20, 20, W - 40, 14);
+
+      // 4. En-tête Forêt Profonde (#0D4A1E -> #1B4332)
+      const headerGrad = ctx.createLinearGradient(20, 34, W - 20, 275);
+      headerGrad.addColorStop(0, "#0D4A1E");
+      headerGrad.addColorStop(1, "#1B4332");
+      ctx.fillStyle = headerGrad;
+      ctx.fillRect(20, 34, W - 40, 236);
+
+      // Filet doré sous l'en-tête
+      ctx.fillStyle = "#D4AF37";
+      ctx.fillRect(20, 270, W - 40, 5);
+
+      // Emblème dessiné à gauche de l'en-tête
+      drawEmblemOnCanvas(ctx, 118, 152, 56);
+
+      // Textes officiels de l'en-tête
+      ctx.textAlign = "left";
+      ctx.fillStyle = "#F6E7B4";
+      ctx.font = "800 15px 'Plus Jakarta Sans', sans-serif";
+      ctx.fillText("ÉGLISE DES ASSEMBLÉES DE DIEU", 198, 92);
+      ctx.fillText("YOPOUGON N. QUARTIER TEMPLE EMMAÜS", 198, 114);
+
+      ctx.fillStyle = "#F2B705";
+      ctx.font = "800 16px 'Plus Jakarta Sans', sans-serif";
+      ctx.fillText("JEUNESSE DU TEMPLE EMMAÜS", 198, 146);
+
+      ctx.fillStyle = "#FFFFFF";
+      ctx.font = "800 32px 'Playfair Display', Georgia, serif";
+      ctx.fillText("DÎNER GALA « LA VIE COLORÉE »", 198, 192);
+
+      ctx.fillStyle = "rgba(255, 255, 255, 0.88)";
+      ctx.font = "600 15px 'Plus Jakarta Sans', sans-serif";
+      ctx.fillText("Nuit du 31 Déc. 2026 au 1er Janv. 2027 • 00h00 – 05h50", 198, 224);
+
+      // 5. Titre du reçu & Tampon visuel proéminent
+      ctx.textAlign = "center";
+      ctx.fillStyle = "#0D4A1E";
+      ctx.font = "800 28px 'Playfair Display', Georgia, serif";
+      ctx.fillText("REÇU OFFICIEL DE PAIEMENT", W / 2, 326);
+
+      // Ligne décorative sous le titre
+      ctx.strokeStyle = "#D4AF37";
+      ctx.lineWidth = 2;
+      ctx.beginPath();
+      ctx.moveTo(270, 340);
+      ctx.lineTo(630, 340);
+      ctx.stroke();
+
+      // Tampon visuel (Soldé vs Partiel)
+      ctx.save();
+      const stampW = 470;
+      const stampH = 54;
+      const stampX = (W - stampW) / 2;
+      const stampY = 358;
+      drawRoundedRect(ctx, stampX, stampY, stampW, stampH, 12);
+      if (isFull) {
+        ctx.fillStyle = "#ECFDF5";
+        ctx.fill();
+        ctx.lineWidth = 3.5;
+        ctx.strokeStyle = "#059669";
+        ctx.stroke();
+        ctx.fillStyle = "#065F46";
+        ctx.font = "800 21px 'Plus Jakarta Sans', sans-serif";
+        ctx.fillText("✓ SOLDÉ — PASS VALIDÉ", W / 2, stampY + 35);
+      } else {
+        ctx.fillStyle = "#FFFBEB";
+        ctx.fill();
+        ctx.lineWidth = 3.5;
+        ctx.strokeStyle = "#D97706";
+        ctx.stroke();
+        ctx.fillStyle = "#92400E";
+        ctx.font = "800 20px 'Plus Jakarta Sans', sans-serif";
+        ctx.fillText("◐ PAIEMENT PARTIEL (ACOMPTE)", W / 2, stampY + 35);
+      }
+      ctx.restore();
+
+      // 6. Carte structurée des informations du participant
+      const cardX = 54;
+      const cardY = 434;
+      const cardW = W - 108;
+      const cardH = 385;
+
+      drawRoundedRect(ctx, cardX, cardY, cardW, cardH, 16);
+      ctx.fillStyle = "#FFFFFF";
+      ctx.fill();
+      ctx.lineWidth = 2;
+      ctx.strokeStyle = "#D1D5DB";
+      ctx.stroke();
+
+      const validDateStr = record.validatedDate || getTodayFormatted();
+      const modeDetail = `${record.paymentMethod || 'Wave'}${record.waveRef ? ` (${record.waveRef})` : ''} • Validé le ${validDateStr}`;
+      const rows = [
+        { label: "N° DE PASS :", value: record.ticketCode || "JADEM-2026-001", isCode: true },
+        { label: "PARTICIPANT :", value: `${record.nom || ''} ${record.prenoms || ''}`.trim(), isBold: true },
+        { label: "UNITÉ :", value: record.uniteAffichee || record.unite || "" },
+        { label: "CONTACT :", value: formatPhoneDisplay(record.phone) },
+        { label: "FORMULE :", value: record.formuleLabel || "Pass Standard (5 000 FCFA)" },
+        { label: "MODE & VALIDATION :", value: modeDetail }
+      ];
+
+      if (record.tableBracelet) {
+        rows.push({ label: "TABLE / BRACELET :", value: record.tableBracelet, isBold: true });
+      }
+
+      const rowHeight = cardH / rows.length;
+      rows.forEach((row, idx) => {
+        const ry = cardY + idx * rowHeight;
+        if (idx > 0) {
+          ctx.strokeStyle = "#E5E7EB";
+          ctx.lineWidth = 1.5;
+          ctx.beginPath();
+          ctx.moveTo(cardX + 20, ry);
+          ctx.lineTo(cardX + cardW - 20, ry);
+          ctx.stroke();
+        }
+
+        const textY = ry + rowHeight / 2 + 6;
+        ctx.textAlign = "left";
+        ctx.fillStyle = "#6B7280";
+        ctx.font = "800 15px 'Plus Jakarta Sans', sans-serif";
+        ctx.fillText(row.label, cardX + 26, textY);
+
+        ctx.textAlign = "right";
+        if (row.isCode) {
+          ctx.fillStyle = "#0D4A1E";
+          ctx.font = "800 22px monospace";
+        } else if (row.isBold) {
+          ctx.fillStyle = "#111827";
+          ctx.font = "800 19px 'Plus Jakarta Sans', sans-serif";
+        } else {
+          ctx.fillStyle = "#1F2937";
+          ctx.font = "700 17px 'Plus Jakarta Sans', sans-serif";
+        }
+        ctx.fillText(row.value, cardX + cardW - 26, textY);
+      });
+
+      // 7. Encadré Financier (Montant versé & Reste à payer)
+      const finX = 54;
+      const finY = 840;
+      const finW = W - 108;
+      const finH = 165;
+
+      drawRoundedRect(ctx, finX, finY, finW, finH, 16);
+      ctx.fillStyle = "#FFFDF5";
+      ctx.fill();
+      ctx.lineWidth = 3;
+      ctx.strokeStyle = "#D4AF37";
+      ctx.stroke();
+
+      // Ligne Montant versé
+      ctx.textAlign = "left";
+      ctx.fillStyle = "#0D4A1E";
+      ctx.font = "800 19px 'Plus Jakarta Sans', sans-serif";
+      ctx.fillText("MONTANT VERSÉ :", finX + 26, finY + 55);
+
+      ctx.textAlign = "right";
+      ctx.fillStyle = "#0D4A1E";
+      ctx.font = "800 36px 'Plus Jakarta Sans', sans-serif";
+      ctx.fillText(formatCurrency(amountPaid), finX + finW - 26, finY + 58);
+
+      // Séparateur pointillé
+      ctx.strokeStyle = "#D4AF37";
+      ctx.setLineDash([6, 4]);
+      ctx.lineWidth = 1.5;
+      ctx.beginPath();
+      ctx.moveTo(finX + 24, finY + 84);
+      ctx.lineTo(finX + finW - 24, finY + 84);
+      ctx.stroke();
+      ctx.setLineDash([]);
+
+      // Ligne Reste à payer
+      ctx.textAlign = "left";
+      ctx.fillStyle = "#374151";
+      ctx.font = "800 18px 'Plus Jakarta Sans', sans-serif";
+      ctx.fillText("RESTE À PAYER :", finX + 26, finY + 128);
+
+      ctx.textAlign = "right";
+      if (isFull) {
+        ctx.fillStyle = "#059669";
+        ctx.font = "800 24px 'Plus Jakarta Sans', sans-serif";
+        ctx.fillText("0 FCFA (Complet)", finX + finW - 26, finY + 128);
+      } else {
+        ctx.fillStyle = "#DC2626";
+        ctx.font = "800 24px 'Plus Jakarta Sans', sans-serif";
+        ctx.fillText(formatCurrency(remaining), finX + finW - 26, finY + 120);
+
+        ctx.fillStyle = "#991B1B";
+        ctx.font = "700 14px 'Plus Jakarta Sans', sans-serif";
+        ctx.fillText("Échéance : 26 Déc. 2026 à 18h00", finX + finW - 26, finY + 144);
+      }
+
+      // 8. Pied de reçu : Sceau géométrique de vérification & Infos Gala
+      drawDeterministicSealMatrix(ctx, 56, 1028, 118, record.ticketCode || "JADEM-2026");
+
+      ctx.textAlign = "left";
+      ctx.fillStyle = "#0D4A1E";
+      ctx.font = "800 15px 'Plus Jakarta Sans', sans-serif";
+      ctx.fillText("VISA PÔLE FINANCES — JEUNESSE TEMPLE EMMAÜS", 194, 1052);
+
+      ctx.fillStyle = "#1F2937";
+      ctx.font = "700 14px 'Plus Jakarta Sans', sans-serif";
+      ctx.fillText("Dress Code : Tenue Colorée • Présentez ce reçu à l'accueil", 194, 1078);
+
+      ctx.fillStyle = "#4B5563";
+      ctx.font = "600 13px 'Plus Jakarta Sans', sans-serif";
+      ctx.fillText("Nuit du 31 Déc. au 1er Janv. • 00h00–05h50 • Salle Polyvalente", 194, 1102);
+
+      ctx.fillStyle = "#0D4A1E";
+      ctx.font = "700 13px 'Plus Jakarta Sans', sans-serif";
+      ctx.fillText("Infolines : 07 08 57 60 89 / 07 79 48 28 48 / 01 51 27 94 16", 194, 1126);
+
+      // 9. Ruban arc-en-ciel inférieur
+      drawRainbowStripOnCanvas(ctx, 20, H - 34, W - 40, 14);
+
+      return canvas.toDataURL("image/png");
+    }
+
+    /**
+     * Télécharge directement l'image PNG du reçu
+     */
+    function downloadReceiptPng(record) {
+      if (!record || (Number(record.amountPaid) || 0) <= 0) return;
+      generateReceiptPNG(record);
+      const canvas = document.getElementById('receiptGeneratorCanvas');
+      const filename = `Recu_Gala_${record.ticketCode || 'JADEM-2026'}.png`;
+      canvas.toBlob(async (blob) => {
+        if (blob && await saveFile(filename, blob)) showToast(`Image PNG téléchargée : ${filename}`);
+      }, 'image/png');
+    }
+
+    /**
+     * Partage l'image PNG du reçu sur WhatsApp via Web Share API (mobile)
+     * avec repli automatique par téléchargement PNG + bannière explicative sur ordinateur.
+     */
+    function shareReceiptPngOnWhatsapp(record) {
+      if (!record || (Number(record.amountPaid) || 0) <= 0) return;
+      generateReceiptPNG(record);
+      const canvas = document.getElementById('receiptGeneratorCanvas');
+      const filename = `Recu_Gala_${record.ticketCode || 'JADEM-2026'}.png`;
+
+      canvas.toBlob(async (blob) => {
+        if (!blob) {
+          downloadReceiptPng(record);
+          return;
+        }
+
+        const file = new File([blob], filename, { type: 'image/png' });
+
+        // Vérification support partage de fichiers natif (Android / iOS WhatsApp)
+        if (navigator.share && navigator.canShare && navigator.canShare({ files: [file] })) {
+          try {
+            await navigator.share({
+              files: [file],
+              title: 'Reçu Dîner Gala La Vie Colorée',
+              text: 'Voici mon reçu officiel pour le Dîner Gala La Vie Colorée (Temple Emmaüs).'
+            });
+            showToast("Reçu image PNG partagé !");
+            return;
+          } catch (err) {
+            if (err && err.name === 'AbortError') return;
+          }
+        }
+
+        // Repli propre sur ordinateur ou navigateur sans partage de fichiers
+        if (await saveFile(filename, blob)) showToast("Image PNG téléchargée ! Ouvrez WhatsApp et joignez cette image depuis vos téléchargements.", "info");
+      }, 'image/png');
+    }
+
+    // =====================================================================
+    // NAVIGATION ENTRE LES 2 ONGLETS
+    // =====================================================================
+    const tabBtnRegister = document.getElementById('tabBtnRegister');
+    const tabBtnSpace = document.getElementById('tabBtnSpace');
+    const tabPanelRegister = document.getElementById('tabPanelRegister');
+    const tabPanelSpace = document.getElementById('tabPanelSpace');
+
+    function switchTab(tabName) {
+      tabBtnRegister.setAttribute('aria-selected', String(tabName === 'register'));
+      tabBtnSpace.setAttribute('aria-selected', String(tabName !== 'register'));
+      if (window.__tabReady) window.scrollTo({ top: Math.max(0, tabBtnRegister.parentElement.getBoundingClientRect().top + window.scrollY - 70), behavior: 'smooth' });
+      if (tabName === 'register') {
+        tabPanelRegister.classList.remove('hidden');
+        tabPanelSpace.classList.add('hidden');
+        tabBtnRegister.classList.add('bg-forestDeep', 'text-white', 'shadow-sm');
+        tabBtnRegister.classList.remove('text-gray-700', 'hover:bg-gray-100');
+        tabBtnSpace.classList.remove('bg-forestDeep', 'text-white', 'shadow-sm');
+        tabBtnSpace.classList.add('text-gray-700', 'hover:bg-gray-100');
+      } else {
+        tabPanelSpace.classList.remove('hidden');
+        tabPanelRegister.classList.add('hidden');
+        tabBtnSpace.classList.add('bg-forestDeep', 'text-white', 'shadow-sm');
+        tabBtnSpace.classList.remove('text-gray-700', 'hover:bg-gray-100');
+        tabBtnRegister.classList.remove('bg-forestDeep', 'text-white', 'shadow-sm');
+        tabBtnRegister.classList.add('text-gray-700', 'hover:bg-gray-100');
+      }
+    }
+
+    tabBtnRegister.addEventListener('click', () => switchTab('register'));
+    tabBtnSpace.addEventListener('click', () => switchTab('space'));
+    document.getElementById('goToRegisterFromEmptyBtn').addEventListener('click', () => switchTab('register'));
+
+    // =====================================================================
+    // ONGLET 1 : FORMULAIRE D'INSCRIPTION & VALIDATION
+    // =====================================================================
+    const regNom = document.getElementById('regNom');
+    const regUnite = document.getElementById('regUnite');
+    const regAutreUniteBox = document.getElementById('regAutreUniteBox');
+    const regAutreUniteInput = document.getElementById('regAutreUniteInput');
+    const duplicateAlertBox = document.getElementById('duplicateAlertBox');
+    let duplicateRecordRef = null;
+
+    regNom.addEventListener('input', () => {
+      const s = regNom.selectionStart;
+      const e = regNom.selectionEnd;
+      regNom.value = regNom.value.toUpperCase();
+      regNom.setSelectionRange(s, e);
+    });
+
+    regUnite.addEventListener('change', () => {
+      if (regUnite.value === 'Autre') {
+        regAutreUniteBox.classList.remove('hidden');
+        regAutreUniteInput.setAttribute('required', 'true');
+        regAutreUniteInput.focus();
+      } else {
+        regAutreUniteBox.classList.add('hidden');
+        regAutreUniteInput.removeAttribute('required');
+        regAutreUniteInput.value = '';
+        document.getElementById('err-regAutreUnite').classList.add('hidden');
+      }
+    });
+
+    // Mise en évidence des cartes radio Formule et Mode
+    const formuleRadios = document.querySelectorAll('input[name="regFormule"]');
+    formuleRadios.forEach(r => r.addEventListener('change', () => {
+      formuleRadios.forEach(item => {
+        const card = item.closest('.formule-radio-card');
+        if (item.checked) {
+          card.classList.add('border-forestDeep', 'bg-emerald-50/50');
+          card.classList.remove('border-gray-200', 'bg-white');
+        } else {
+          card.classList.remove('border-forestDeep', 'bg-emerald-50/50');
+          card.classList.add('border-gray-200', 'bg-white');
+        }
+      });
+    }));
+
+    document.getElementById('openExistingSpaceBtn').addEventListener('click', () => {
+      const phone = normalizePhone(document.getElementById('regPhone').value);
+      document.getElementById('spaceLookupInput').value = phone;
+      duplicateAlertBox.classList.add('hidden');
+      switchTab('space');
+      document.getElementById('spaceLookupForm').requestSubmit();
+    });
+
+    document.getElementById('registrationForm').addEventListener('submit', async (e) => {
+      e.preventDefault();
+      duplicateAlertBox.classList.add('hidden');
+      ['err-regNom', 'err-regPrenoms', 'err-regPhone', 'err-regUnite', 'err-regAutreUnite'].forEach(id => {
+        document.getElementById(id).classList.add('hidden');
+      });
+
+      const nom = regNom.value.trim().toUpperCase();
+      const prenoms = document.getElementById('regPrenoms').value.trim();
+      const phone = normalizePhone(document.getElementById('regPhone').value);
+      const unite = regUnite.value;
+      const autreUniteDetail = regAutreUniteInput.value.trim();
+      const selectedFormule = document.querySelector('input[name="regFormule"]:checked');
+      const formuleLabel = selectedFormule ? selectedFormule.value : 'Pass Standard — 5 000 FCFA';
+      const targetAmount = selectedFormule ? parseInt(selectedFormule.getAttribute('data-target'), 10) : 5000;
+
+      let hasError = false;
+      if (!nom) { document.getElementById('err-regNom').classList.remove('hidden'); hasError = true; }
+      if (!prenoms) { document.getElementById('err-regPrenoms').classList.remove('hidden'); hasError = true; }
+      if (phone.length !== 10) { document.getElementById('err-regPhone').classList.remove('hidden'); hasError = true; }
+      if (!unite) { document.getElementById('err-regUnite').classList.remove('hidden'); hasError = true; }
+      if (unite === 'Autre' && !autreUniteDetail) { document.getElementById('err-regAutreUnite').classList.remove('hidden'); hasError = true; }
+
+      if (hasError) {
+        document.querySelector('#registrationForm p[id^="err-"]:not(.hidden)')?.parentElement.querySelector('input,select')?.focus();
+        showToast("Veuillez corriger les champs signalés en rouge.", "error");
+        return;
+      }
+
+      let newRecord;
+      try {
+        newRecord = (await api('register', { nom, prenoms, phone, unite, autreUniteDetail, formuleLabel, targetAmount })).record;
+      } catch (err) {
+        if (err.code === 'DUPLICATE') {
+          document.getElementById('duplicateAlertText').innerHTML = `Le numéro <strong>${formatPhoneDisplay(phone)}</strong> est déjà enregistré au nom de <strong>${escapeHtml(err.data.nomMasque || '')}</strong> (N° Pass : <span class="font-mono font-bold">${escapeHtml(err.data.ticketCode || '')}</span>).`;
+          duplicateAlertBox.classList.remove('hidden');
+          duplicateAlertBox.scrollIntoView({ behavior: 'smooth', block: 'center' });
+        } else showToast(err.message, 'error');
+        return;
+      }
+      upsertLocal(newRecord);
+      const ticketCode = newRecord.ticketCode;
+
+      activeParticipantId = newRecord.id;
+      document.getElementById('tabSpaceBadge').classList.remove('hidden');
+      document.getElementById('spaceLookupInput').value = phone;
+      document.getElementById('registrationForm').reset();
+      regAutreUniteBox.classList.add('hidden');
+
+      renderParticipantSpace(newRecord.id);
+      switchTab('space');
+      showToast(`Inscription enregistrée ! Votre N° de Pass est ${ticketCode}`);
+    });
+
+    // =====================================================================
+    // ONGLET 2 : RECHERCHE, APERÇUS DÉMO & AFFICHAGE PAGE PERSONNELLE
+    // =====================================================================
+    document.getElementById('spaceLookupForm').addEventListener('submit', async (e) => {
+      e.preventDefault();
+      const errEl = document.getElementById('lookupErrorMsg');
+      errEl.classList.add('hidden');
+
+      const raw = document.getElementById('spaceLookupInput').value.trim();
+      if (!raw) {
+        errEl.textContent = "Saisissez votre numéro WhatsApp à 10 chiffres.";
+        errEl.classList.remove('hidden');
+        return;
+      }
+
+      const digits = normalizePhone(raw);
+      let found;
+      try {
+        found = (await api('lookup', { phone: digits })).record;
+      } catch (err) {
+        errEl.textContent = err.code === 'NOT_FOUND' ? "Aucun dossier trouvé pour ce numéro." : err.message;
+        errEl.classList.remove('hidden');
+        return;
+      }
+      upsertLocal(found);
+
+      activeParticipantId = found.id;
+      document.getElementById('tabSpaceBadge').classList.remove('hidden');
+      renderParticipantSpace(found.id);
+      showToast(`Espace chargé : ${found.nom} ${found.prenoms}`);
+    });
+
+    // Chips de test rapide (Soldé / Acompte Partiel / Inscrit en attente)
+    document.querySelectorAll('.demo-chip-btn').forEach(btn => {
+      btn.addEventListener('click', () => {
+        const demoCode = btn.getAttribute('data-demo-code');
+        let found = registrations.find(r => r.ticketCode === demoCode);
+        if (!found) {
+          const template = DEMO_REGISTRATIONS.find(d => d.ticketCode === demoCode);
+          if (template) {
+            found = JSON.parse(JSON.stringify(template));
+            registrations.push(found);
+            saveRegistrations();
+          }
+        }
+        if (found) {
+          document.getElementById('lookupErrorMsg').classList.add('hidden');
+          document.getElementById('spaceLookupInput').value = found.ticketCode;
+          activeParticipantId = found.id;
+          document.getElementById('tabSpaceBadge').classList.remove('hidden');
+          renderParticipantSpace(found.id);
+        }
+      });
+    });
+
+    document.querySelectorAll('.copy-wave-btn').forEach(btn => {
+      btn.addEventListener('click', () => copyTextToClipboard(WAVE_PAYMENT_URL));
+    });
+
+    function renderParticipantSpace(participantId) {
+      const record = registrations.find(r => r.id === participantId);
+      if (!record) return;
+
+      document.getElementById('spaceEmptyState').classList.add('hidden');
+      document.getElementById('participantPersonalView').classList.remove('hidden');
+
+      const targetAmount = Number(record.targetAmount) || 5000;
+      const amountPaid = Number(record.amountPaid) || 0;
+      const remaining = Math.max(0, targetAmount - amountPaid);
+
+      document.getElementById('persFullName').textContent = `${record.nom} ${record.prenoms}`;
+      document.getElementById('persTicketCode').textContent = record.ticketCode;
+      document.getElementById('persUnite').textContent = record.uniteAffichee || record.unite;
+      document.getElementById('persPhone').textContent = formatPhoneDisplay(record.phone);
+      document.getElementById('persFormule').textContent = record.formuleLabel;
+      document.getElementById('cashHelperCode').textContent = record.ticketCode;
+      try { localStorage.setItem(LAST_KEY, record.phone); } catch (e) {}
+      document.getElementById('declareWaveAmountInitial').innerHTML =
+        `<option value="${targetAmount}">Totalité — ${formatCurrency(targetAmount)}</option><option value="2500">Acompte — 2 500 FCFA</option>`;
+
+      const banner = document.getElementById('persStatusBanner');
+      const stateUnpaid = document.getElementById('stateUnpaidContainer');
+      const statePartial = document.getElementById('statePartialContainer');
+      const stateFull = document.getElementById('statePaidFullContainer');
+      const pngSection = document.getElementById('pngReceiptSection');
+
+      stateUnpaid.classList.add('hidden');
+      statePartial.classList.add('hidden');
+      stateFull.classList.add('hidden');
+
+      if (amountPaid === 0) {
+        // ÉTAT 1 : INSCRIT — EN ATTENTE DE PAIEMENT (Reçu PNG verrouillé)
+        banner.className = "rounded-xl p-4 border-2 border-amber-300 bg-amber-50 flex items-center justify-between gap-3";
+        banner.innerHTML = `
+          <div>
+            <span class="text-[11px] font-bold uppercase tracking-wider text-amber-800 block">Statut du dossier</span>
+            <span class="text-sm sm:text-base font-extrabold text-amber-950">INSCRIT — EN ATTENTE DE PAIEMENT</span>
+            ${record.waveDeclarationPending && record.waveRef ? `<span class="block text-xs font-bold text-sky-800 mt-1">Déclaration Wave à vérifier : <code class="font-mono">${escapeHtml(record.waveRef)}</code></span>` : ''}
+          </div>
+          <span class="px-3 py-1 rounded-full bg-amber-200 text-amber-950 font-extrabold text-xs shrink-0">0 FCFA</span>
+        `;
+        stateUnpaid.classList.remove('hidden');
+        pngSection.classList.add('hidden');
+
+      } else if (amountPaid > 0 && amountPaid < targetAmount) {
+        // ÉTAT 2 : PAIEMENT PARTIEL — ACOMPTE VERSÉ (Reçu PNG débloqué !)
+        const pct = Math.min(99, Math.round((amountPaid / targetAmount) * 100));
+        banner.className = "rounded-xl p-4 border-2 border-galaGold bg-amber-50/80 flex items-center justify-between gap-3";
+        banner.innerHTML = `
+          <div>
+            <span class="text-[11px] font-bold uppercase tracking-wider text-amber-800 block">Statut du dossier</span>
+            <span class="text-sm sm:text-base font-extrabold text-amber-950">PAIEMENT PARTIEL — ACOMPTE VERSÉ</span>
+            ${record.waveDeclarationPending && record.waveRef ? `<span class="block text-xs font-bold text-sky-800 mt-1">Déclaration Wave du solde à vérifier : <code class="font-mono">${escapeHtml(record.waveRef)}</code></span>` : ''}
+          </div>
+          <span class="px-3 py-1 rounded-full bg-galaGold text-forestDeep font-extrabold text-xs shrink-0">${pct} %</span>
+        `;
+        document.getElementById('partialProgressText').textContent = `${formatCurrency(amountPaid)} / ${formatCurrency(targetAmount)} (${pct} %)`;
+        document.getElementById('partialProgressBar').style.width = `${pct}%`;
+        document.getElementById('partialRemainingText').textContent = formatCurrency(remaining);
+
+        statePartial.classList.remove('hidden');
+        pngSection.classList.remove('hidden');
+
+        // Génération de l'image PNG haute résolution 900x1200
+        const dataUrl = generateReceiptPNG(record);
+        document.getElementById('receiptPreviewImg').src = dataUrl;
+
+      } else {
+        // ÉTAT 3 : SOLDÉ — PASS GALA VALIDÉ (Reçu PNG final débloqué !)
+        banner.className = "rounded-xl p-4 border-2 border-emerald-500 bg-emerald-50 flex items-center justify-between gap-3";
+        banner.innerHTML = `
+          <div>
+            <span class="text-[11px] font-bold uppercase tracking-wider text-emerald-800 block">Statut du dossier</span>
+            <span class="text-sm sm:text-base font-extrabold text-forestDeep">SOLDÉ — PASS GALA VALIDÉ</span>
+          </div>
+          <span class="px-3 py-1 rounded-full bg-forestDeep text-white font-extrabold text-xs shrink-0">100 % VALIDÉ</span>
+        `;
+
+        stateFull.classList.remove('hidden');
+        pngSection.classList.remove('hidden');
+
+        // Génération de l'image PNG haute résolution 900x1200
+        const dataUrl = generateReceiptPNG(record);
+        document.getElementById('receiptPreviewImg').src = dataUrl;
+      }
+    }
+
+    // Boutons d'action Reçu PNG (Partage WhatsApp & Téléchargement PNG uniquement)
+    document.getElementById('shareReceiptPngWhatsappBtn').addEventListener('click', () => {
+      const record = registrations.find(r => r.id === activeParticipantId);
+      if (record) shareReceiptPngOnWhatsapp(record);
+    });
+
+    document.getElementById('downloadReceiptPngBtn').addEventListener('click', () => {
+      const record = registrations.find(r => r.id === activeParticipantId);
+      if (record) downloadReceiptPng(record);
+    });
+
+    // Déclaration paiement Wave initial (amountPaid === 0)
+    document.getElementById('declareWaveInitialForm').addEventListener('submit', async (e) => {
+      e.preventDefault();
+      const record = registrations.find(r => r.id === activeParticipantId);
+      if (!record) return;
+      const amt = document.getElementById('declareWaveAmountInitial').value;
+      const ref = document.getElementById('declareWaveRefInitial').value.trim();
+      if (!ref) return;
+
+      try { upsertLocal((await api('declare', { id: record.id, kind: 'initial', ref, amount: Number(amt) })).record); }
+      catch (err) { showToast(err.message, 'error'); return; }
+
+      document.getElementById('declareWaveRefInitial').value = '';
+      renderParticipantSpace(record.id);
+      showToast("Déclaration Wave enregistrée ! Le Pôle Finances va valider votre reçu.");
+    });
+
+    // Déclaration paiement Wave du solde (paiement partiel)
+    document.getElementById('declareWaveBalanceForm').addEventListener('submit', async (e) => {
+      e.preventDefault();
+      const record = registrations.find(r => r.id === activeParticipantId);
+      if (!record) return;
+      const ref = document.getElementById('declareWaveRefBalance').value.trim();
+      if (!ref) return;
+
+      try { upsertLocal((await api('declare', { id: record.id, kind: 'balance', ref })).record); }
+      catch (err) { showToast(err.message, 'error'); return; }
+
+      document.getElementById('declareWaveRefBalance').value = '';
+      renderParticipantSpace(record.id);
+      showToast("Référence Wave du solde transmise au Pôle Finances !");
+    });
+
+    // =====================================================================
+    // ESPACE PÔLE FINANCES
+    // =====================================================================
+    const financePinModal = document.getElementById('financePinModal');
+    const financeAdminModal = document.getElementById('financeAdminModal');
+    const financePinInput = document.getElementById('financePinInput');
+
+    document.getElementById('openFinancePinBtn').addEventListener('click', () => {
+      document.getElementById('financePinError').classList.add('hidden');
+      financePinInput.value = '';
+      financePinModal.classList.remove('hidden');
+      setTimeout(() => financePinInput.focus(), 100);
+    });
+
+    document.getElementById('closeFinancePinModalBtn').addEventListener('click', () => {
+      financePinModal.classList.add('hidden');
+    });
+
+    let pinFails = 0, pinLockUntil = 0;
+    document.getElementById('financePinForm').addEventListener('submit', async (e) => {
+      e.preventDefault();
+      const pinErr = document.getElementById('financePinError');
+      if (Date.now() < pinLockUntil) { pinErr.textContent = "Trop d'essais. Patientez 30 secondes."; pinErr.classList.remove('hidden'); return; }
+      let pinMsg = "Code incorrect.", ok = false;
+      try {
+        const code = financePinInput.value.trim();
+        registrations = (await api('adminList', { code })).records;
+        adminCode = code; ok = true;
+      } catch (err) { pinMsg = err.message; }
+      if (ok) {
+        pinFails = 0;
+        financePinModal.classList.add('hidden');
+        financeAdminModal.classList.remove('hidden');
+        renderFinanceAdminDashboard();
+      } else {
+        if (++pinFails >= 3) { pinFails = 0; pinLockUntil = Date.now() + 30000; }
+        pinErr.textContent = pinMsg;
+        pinErr.classList.remove('hidden');
+        financePinInput.value = '';
+        financePinInput.focus();
+      }
+    });
+
+    document.getElementById('closeFinanceAdminModalBtn').addEventListener('click', () => {
+      financeAdminModal.classList.add('hidden');
+      pendingDeleteId = null;
+    });
+
+    document.getElementById('adminSearchInput').addEventListener('input', renderFinanceAdminDashboard);
+    document.getElementById('adminFilterUnite').addEventListener('change', renderFinanceAdminDashboard);
+    document.getElementById('adminFilterStatus').addEventListener('change', renderFinanceAdminDashboard);
+
+    function renderFinanceAdminDashboard() {
+      let totalInscrits = registrations.length;
+      let countSoldes = 0;
+      let countPartiels = 0;
+      let totalEncaisse = 0;
+      let resteRecouvrer = 0;
+
+      registrations.forEach(item => {
+        const target = Number(item.targetAmount) || 5000;
+        const paid = Number(item.amountPaid) || 0;
+        const rem = Math.max(0, target - paid);
+        totalEncaisse += paid;
+        resteRecouvrer += rem;
+
+        if (paid >= target) countSoldes++;
+        else if (paid > 0) countPartiels++;
+      });
+
+      document.getElementById('kpiTotalInscrits').textContent = totalInscrits;
+      document.getElementById('kpiSoldes').textContent = countSoldes;
+      document.getElementById('kpiPartiels').textContent = countPartiels;
+      document.getElementById('kpiTotalEncaisse').textContent = formatCurrency(totalEncaisse);
+      document.getElementById('kpiResteRecouvrer').textContent = formatCurrency(resteRecouvrer);
+
+      const searchQ = document.getElementById('adminSearchInput').value.trim().toLowerCase();
+      const filterUnite = document.getElementById('adminFilterUnite').value;
+      const filterStatus = document.getElementById('adminFilterStatus').value;
+
+      const filtered = registrations.filter(item => {
+        const target = Number(item.targetAmount) || 5000;
+        const paid = Number(item.amountPaid) || 0;
+
+        if (filterUnite !== 'ALL' && item.unite !== filterUnite) return false;
+        if (filterStatus === 'SOLDE' && paid < target) return false;
+        if (filterStatus === 'PARTIEL' && (paid <= 0 || paid >= target)) return false;
+        if (filterStatus === 'ATTENTE' && paid > 0) return false;
+        if (filterStatus === 'WAVE_DECLARED' && !item.waveDeclarationPending) return false;
+
+        if (searchQ) {
+          const hay = `${item.ticketCode} ${item.nom} ${item.prenoms} ${item.phone} ${item.uniteAffichee} ${item.waveRef || ''}`.toLowerCase();
+          if (!hay.includes(searchQ)) return false;
+        }
+        return true;
+      });
+
+      const tbody = document.getElementById('adminRegistrantsTbody');
+      if (filtered.length === 0) {
+        tbody.innerHTML = `<tr><td colspan="8" class="px-4 py-8 text-center text-gray-500">Aucun participant trouvé pour ce filtre.</td></tr>`;
+        return;
+      }
+
+      tbody.innerHTML = filtered.map(item => {
+        const target = Number(item.targetAmount) || 5000;
+        const paid = Number(item.amountPaid) || 0;
+        const rem = Math.max(0, target - paid);
+
+        let statusBadge = '';
+        if (paid <= 0) {
+          statusBadge = `<span class="inline-flex px-2.5 py-1 rounded-full text-[11px] font-extrabold bg-gray-100 text-gray-700">En attente</span>`;
+        } else if (paid < target) {
+          statusBadge = `<span class="inline-flex px-2.5 py-1 rounded-full text-[11px] font-extrabold bg-amber-100 text-amber-800">Partiel (Reste ${rem.toLocaleString('fr-FR')} F)</span>`;
+        } else {
+          statusBadge = `<span class="inline-flex px-2.5 py-1 rounded-full text-[11px] font-extrabold bg-emerald-100 text-forestDeep">Soldé (100 %)</span>`;
+        }
+
+        const waveFlagBadge = item.waveDeclarationPending
+          ? `<span class="inline-block mt-1 px-2 py-0.5 rounded bg-sky-100 text-sky-900 font-extrabold text-[10px]">Wave à vérifier${item.declaredAmount ? ' : ' + Number(item.declaredAmount).toLocaleString('fr-FR') + ' F' : ''}</span>`
+          : '';
+
+        const pngBtn = paid > 0
+          ? `<button type="button" data-admin-action="preview-png" data-id="${item.id}" class="px-2.5 py-1.5 rounded-lg bg-amber-100 hover:bg-amber-200 text-amber-950 font-bold text-xs transition cursor-pointer">Aperçu Reçu PNG</button>`
+          : `<span class="px-2 py-1 text-[11px] text-gray-400 italic">Reçu verrouillé</span>`;
+
+        const deleteBtn = pendingDeleteId === item.id
+          ? `<button type="button" data-admin-action="confirm-delete" data-id="${item.id}" class="px-2 py-1 rounded bg-red-600 text-white font-bold text-[11px] cursor-pointer">Confirmer ?</button>`
+          : `<button type="button" data-admin-action="ask-delete" data-id="${item.id}" class="p-1.5 rounded-lg text-gray-400 hover:text-red-600 hover:bg-red-50 transition cursor-pointer" title="Supprimer">
+              <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 7l-.867 12.142A2 2 0 0116.138 21H7.862a2 2 0 01-1.995-1.858L5 7m5 4v6m4-6v6m1-10V4a1 1 0 00-1-1h-4a1 1 0 00-1 1v3M4 7h16"/></svg>
+            </button>`;
+
+        return `
+          <tr class="hover:bg-gray-50/90 transition">
+            <td class="px-3.5 py-3 font-mono font-extrabold text-forestDeep whitespace-nowrap">${escapeHtml(item.ticketCode)}</td>
+            <td class="px-3.5 py-3 font-bold text-gray-900 whitespace-nowrap">
+              ${escapeHtml(item.nom)} ${escapeHtml(item.prenoms)}
+              ${item.tableBracelet ? `<span class="block text-[11px] font-semibold text-galaGold">${escapeHtml(item.tableBracelet)}</span>` : ''}
+            </td>
+            <td class="px-3.5 py-3 text-gray-700 text-xs">${escapeHtml(item.uniteAffichee || item.unite)}</td>
+            <td class="px-3.5 py-3 font-mono text-xs text-gray-700 whitespace-nowrap">${formatPhoneDisplay(item.phone)}</td>
+            <td class="px-3.5 py-3 whitespace-nowrap">
+              <span class="font-extrabold text-gray-900">${paid.toLocaleString('fr-FR')}</span>
+              <span class="text-gray-500 text-xs">/ ${target.toLocaleString('fr-FR')} F</span>
+            </td>
+            <td class="px-3.5 py-3 text-xs">
+              <span class="font-bold text-gray-800">${escapeHtml(item.paymentMethod || '—')}</span>
+              ${item.waveRef ? `<span class="block font-mono text-[11px] text-gray-600">${escapeHtml(item.waveRef)}</span>` : ''}
+              ${waveFlagBadge}
+            </td>
+            <td class="px-3.5 py-3 whitespace-nowrap">${statusBadge}</td>
+            <td class="px-3.5 py-3 text-right whitespace-nowrap">
+              <div class="inline-flex items-center gap-1.5">
+                <button
+                  type="button"
+                  data-admin-action="open-pay"
+                  data-id="${item.id}"
+                  class="px-2.5 py-1.5 rounded-lg bg-forestDeep hover:bg-forestDark text-white font-bold text-xs transition cursor-pointer"
+                >
+                  Encaisser / Modifier
+                </button>
+                ${pngBtn}
+                ${deleteBtn}
+              </div>
+            </td>
+          </tr>
+        `;
+      }).join('');
+    }
+
+    // Actions du tableau Admin
+    const editPaymentModal = document.getElementById('editPaymentModal');
+    let currentEditingRecord = null;
+
+    document.getElementById('adminRegistrantsTbody').addEventListener('click', async (e) => {
+      const btn = e.target.closest('button[data-admin-action]');
+      if (!btn) return;
+      const action = btn.getAttribute('data-admin-action');
+      const id = btn.getAttribute('data-id');
+      const item = registrations.find(r => r.id === id);
+      if (!item) return;
+
+      if (action === 'open-pay') {
+        currentEditingRecord = item;
+        const target = Number(item.targetAmount) || 5000;
+        const paid = Number(item.amountPaid) || 0;
+        const rem = Math.max(0, target - paid);
+
+        document.getElementById('editPayTicketBadge').textContent = item.ticketCode;
+        document.getElementById('editPayName').textContent = `${item.nom} ${item.prenoms}`;
+        document.getElementById('editPayTotalDue').textContent = formatCurrency(target);
+        document.getElementById('editPayCurrentPaid').textContent = formatCurrency(paid);
+        document.getElementById('editPayCurrentRemaining').textContent = formatCurrency(rem);
+        document.getElementById('editPayHistory').innerHTML = (item.payments || []).slice(-4).map(p =>
+          `<p>${escapeHtml(p.date)} — ${p.delta >= 0 ? '+' : ''}${Number(p.delta).toLocaleString('fr-FR')} F · ${escapeHtml(p.mode)}${p.ref ? ' · ' + escapeHtml(p.ref) : ''}</p>`).join('') || '<p>Aucun versement enregistré.</p>';
+
+        document.querySelector('input[name="editPayOperation"][value="ADD"]').checked = true;
+        document.getElementById('editPayAmountInput').value = item.declaredAmount > 0 ? item.declaredAmount : (rem > 0 ? rem : 0);
+        document.getElementById('editPayModeSelect').value = item.paymentMethod || 'Wave';
+        document.getElementById('editPayTableInput').value = item.tableBracelet || '';
+        document.getElementById('editPayRefInput').value = item.waveRef || '';
+
+        editPaymentModal.classList.remove('hidden');
+      } else if (action === 'preview-png') {
+        activeAdminPreviewRecord = item;
+        const dataUrl = generateReceiptPNG(item);
+        document.getElementById('adminReceiptPreviewImg').src = dataUrl;
+        document.getElementById('adminReceiptPreviewModal').classList.remove('hidden');
+      } else if (action === 'ask-delete') {
+        pendingDeleteId = id;
+        renderFinanceAdminDashboard();
+      } else if (action === 'confirm-delete') {
+        try { await api('adminDelete', { code: adminCode, id }); }
+        catch (err) { showToast(err.message, 'error'); return; }
+        registrations = registrations.filter(r => r.id !== id);
+        pendingDeleteId = null;
+        renderFinanceAdminDashboard();
+        showToast("Participant supprimé.");
+      }
+    });
+
+    document.getElementById('closeEditPaymentModalBtn').addEventListener('click', () => {
+      editPaymentModal.classList.add('hidden');
+    });
+
+    document.querySelectorAll('.quick-pay-btn').forEach(btn => {
+      btn.addEventListener('click', () => {
+        document.getElementById('editPayAmountInput').value = btn.getAttribute('data-quick-amount');
+      });
+    });
+
+    document.getElementById('quickPayRemainingBtn').addEventListener('click', () => {
+      if (!currentEditingRecord) return;
+      const target = Number(currentEditingRecord.targetAmount) || 5000;
+      const paid = Number(currentEditingRecord.amountPaid) || 0;
+      document.querySelector('input[name="editPayOperation"][value="ADD"]').checked = true;
+      document.getElementById('editPayAmountInput').value = Math.max(0, target - paid);
+    });
+
+    document.getElementById('editPaymentForm').addEventListener('submit', async (e) => {
+      e.preventDefault();
+      if (!currentEditingRecord) return;
+
+      const op = document.querySelector('input[name="editPayOperation"]:checked')?.value || 'ADD';
+      const entered = Math.max(0, parseInt(document.getElementById('editPayAmountInput').value, 10) || 0);
+      const currentPaid = Number(currentEditingRecord.amountPaid) || 0;
+
+      const newTotal = op === 'ADD' ? (currentPaid + entered) : entered;
+      const tgt = Number(currentEditingRecord.targetAmount) || 5000;
+      if (newTotal > tgt && !confirm(`Le total (${formatCurrency(newTotal)}) dépasse le coût du pass (${formatCurrency(tgt)}). Enregistrer quand même ?`)) return;
+      try {
+        const r = await api('adminPay', {
+          code: adminCode, id: currentEditingRecord.id, op, amount: entered,
+          mode: document.getElementById('editPayModeSelect').value,
+          table: document.getElementById('editPayTableInput').value.trim(),
+          ref: document.getElementById('editPayRefInput').value.trim()
+        });
+        upsertLocal(r.record); currentEditingRecord = r.record;
+      } catch (err) { showToast(err.message, 'error'); return; }
+      editPaymentModal.classList.add('hidden');
+      renderFinanceAdminDashboard();
+
+      if (activeParticipantId === currentEditingRecord.id) {
+        renderParticipantSpace(currentEditingRecord.id);
+      }
+
+      showToast(`Paiement mis à jour (${formatCurrency(currentEditingRecord.amountPaid)}) — Reçu PNG actualisé !`);
+    });
+
+    // Modal Aperçu PNG côté Admin
+    document.getElementById('closeAdminReceiptPreviewBtn').addEventListener('click', () => {
+      document.getElementById('adminReceiptPreviewModal').classList.add('hidden');
+    });
+
+    document.getElementById('adminSharePngBtn').addEventListener('click', () => {
+      if (activeAdminPreviewRecord) shareReceiptPngOnWhatsapp(activeAdminPreviewRecord);
+    });
+
+    document.getElementById('adminDownloadPngBtn').addEventListener('click', () => {
+      if (activeAdminPreviewRecord) downloadReceiptPng(activeAdminPreviewRecord);
+    });
+
+    // Modal Encaissement direct Espèces
+    const walkInCashModal = document.getElementById('walkInCashModal');
+    const walkInUnite = document.getElementById('walkInUnite');
+    const walkInAutreBox = document.getElementById('walkInAutreBox');
+
+    document.getElementById('openWalkInCashModalBtn').addEventListener('click', () => {
+      document.getElementById('walkInCashForm').reset();
+      walkInAutreBox.classList.add('hidden');
+      walkInCashModal.classList.remove('hidden');
+    });
+
+    document.getElementById('closeWalkInCashModalBtn').addEventListener('click', () => {
+      walkInCashModal.classList.add('hidden');
+    });
+
+    walkInUnite.addEventListener('change', () => {
+      if (walkInUnite.value === 'Autre') {
+        walkInAutreBox.classList.remove('hidden');
+      } else {
+        walkInAutreBox.classList.add('hidden');
+      }
+    });
+
+    document.getElementById('walkInFormule').addEventListener('change', (e) => {
+      document.getElementById('walkInAmount').value = e.target.value;
+    });
+
+    document.getElementById('walkInCashForm').addEventListener('submit', async (e) => {
+      e.preventDefault();
+      const nom = document.getElementById('walkInNom').value.trim().toUpperCase();
+      const prenoms = document.getElementById('walkInPrenoms').value.trim();
+      const phone = normalizePhone(document.getElementById('walkInPhone').value);
+      const unite = walkInUnite.value;
+      const autreDetail = document.getElementById('walkInAutreInput').value.trim();
+      const targetAmount = parseInt(document.getElementById('walkInFormule').value, 10) || 5000;
+      const amountPaid = Math.max(0, parseInt(document.getElementById('walkInAmount').value, 10) || 0);
+      const note = document.getElementById('walkInNote').value.trim() || "Caisse Espèces";
+
+      if (!nom || !prenoms || phone.length !== 10) {
+        showToast("Vérifiez le nom, prénoms et numéro à 10 chiffres.", "error");
+        return;
+      }
+
+      const ex0 = registrations.find(r => normalizePhone(r.phone) === phone);
+      if (ex0 && (Number(ex0.amountPaid) || 0) + amountPaid > (Number(ex0.targetAmount) || 5000) &&
+          !confirm(`Le total dépasse le coût du pass. Enregistrer quand même ?`)) return;
+      let res;
+      try { res = await api('adminWalkIn', { code: adminCode, nom, prenoms, phone, unite, autreUniteDetail: autreDetail, targetAmount, amount: amountPaid, note }); }
+      catch (err) { showToast(err.message, 'error'); return; }
+      upsertLocal(res.record);
+      walkInCashModal.classList.add('hidden');
+      renderFinanceAdminDashboard();
+      if (activeParticipantId === res.record.id) renderParticipantSpace(res.record.id);
+      showToast(res.existing ? `Versement ajouté au dossier existant (${res.record.ticketCode}) !` : `Paiement espèces enregistré ! Reçu PNG débloqué (${res.record.ticketCode})`);
+    });
+
+    // Export Excel (CSV UTF-8 BOM)
+    document.getElementById('exportAdminCsvBtn').addEventListener('click', () => {
+      if (registrations.length === 0) {
+        showToast("Aucune donnée à exporter.", "info");
+        return;
+      }
+
+      const headers = [
+        "N° Pass",
+        "Nom",
+        "Prénoms",
+        "Unité de jeunesse",
+        "Contact WhatsApp",
+        "Formule",
+        "Coût Pass (FCFA)",
+        "Montant Versé (FCFA)",
+        "Reste à Payer (FCFA)",
+        "Mode Règlement",
+        "Référence / Visa Caisse",
+        "Table / Bracelet",
+        "Statut",
+        "Date Validation"
+      ];
+
+      const rows = registrations.map(item => {
+        const target = Number(item.targetAmount) || 5000;
+        const paid = Number(item.amountPaid) || 0;
+        const rem = Math.max(0, target - paid);
+        const statusStr = paid >= target ? "Soldé" : (paid > 0 ? "Paiement Partiel" : "En attente");
+
+        return [
+          item.ticketCode || '',
+          item.nom || '',
+          item.prenoms || '',
+          item.uniteAffichee || item.unite || '',
+          formatPhoneDisplay(item.phone),
+          item.formuleLabel || '',
+          target,
+          paid,
+          rem,
+          item.paymentMethod || '',
+          item.waveRef || '',
+          item.tableBracelet || '',
+          statusStr,
+          item.validatedDate || ''
+        ].map(val => { let v = String(val); if (/^[=+\-@\t\r]/.test(v)) v = "'" + v; return `"${v.replace(/"/g, '""')}"`; }).join(';');
+      });
+
+      const csvContent = "\uFEFF" + [headers.join(';'), ...rows].join('\r\n');
+      saveFile('Suivi_Caisse_Gala_La_Vie_Coloree_2026.csv', csvContent).then(ok => { if (ok) showToast("Fichier Excel (CSV) téléchargé !"); });
+    });
+
+    // Saisie : formatage du numéro, effacement des erreurs, partage
+    document.getElementById('regPhone').addEventListener('input', (e) => {
+      e.target.value = normalizePhone(e.target.value).slice(0, 10).replace(/(\d{2})(?=\d)/g, '$1 ');
+    });
+    [['regNom','err-regNom'],['regPrenoms','err-regPrenoms'],['regPhone','err-regPhone'],['regUnite','err-regUnite'],['regAutreUniteInput','err-regAutreUnite']].forEach(([f, er]) => {
+      const el = document.getElementById(f), err = document.getElementById(er);
+      ['input', 'change'].forEach(ev => el.addEventListener(ev, () => err.classList.add('hidden')));
+    });
+    document.getElementById('copyTicketBtn').addEventListener('click', () => {
+      const r = registrations.find(x => x.id === activeParticipantId);
+      if (r) copyTextToClipboard(r.ticketCode, "N° de Pass copié !");
+    });
+    document.getElementById('inviteFriendBtn').addEventListener('click', () => {
+      const msg = "Je viens de m'inscrire au Dîner Gala « La Vie Colorée » (Temple Emmaüs, nuit du 31 déc. au 1er janv.). Tenue colorée exigée ! Inscris-toi ici : " + location.origin + location.pathname;
+      window.open('https://wa.me/?text=' + encodeURIComponent(msg), '_blank', 'noopener');
+    });
+    document.addEventListener('keydown', (e) => {
+      if (e.key !== 'Escape') return;
+      const top = ['adminReceiptPreviewModal','walkInCashModal','editPaymentModal','financeAdminModal','financePinModal']
+        .map(id => document.getElementById(id)).find(m => !m.classList.contains('hidden'));
+      if (top) { top.classList.add('hidden'); pendingDeleteId = null; }
+    });
+
+    function updateCountdown() {
+      const el = document.getElementById('countdownChip');
+      const now = new Date(), start = new Date(2027, 0, 1, 0, 0), end = new Date(2027, 0, 1, 5, 50);
+      if (now >= end) { el.classList.add('hidden'); return; }
+      if (now >= start) { el.textContent = "Le Gala a lieu en ce moment"; return; }
+      const d = Math.ceil((start - now) / 864e5);
+      el.textContent = d > 1 ? `Plus que ${d} jours avant le Gala` : "C'est cette nuit, dès minuit !";
+    }
+
+    // Initialisation au chargement
+    window.addEventListener('DOMContentLoaded', () => {
+      loadRegistrations();
+      if (!API_URL.startsWith('https://')) showToast("Serveur non configuré : renseignez API_URL dans le fichier.", "error");
+      updateCountdown();
+      // Retour d'un participant : son dossier est rechargé depuis le serveur
+      try {
+        const phone = localStorage.getItem(LAST_KEY);
+        if (phone && API_URL.startsWith('https://')) {
+          api('lookup', { phone }).then(r => {
+            upsertLocal(r.record); activeParticipantId = r.record.id;
+            document.getElementById('spaceLookupInput').value = r.record.phone;
+            document.getElementById('tabSpaceBadge').classList.remove('hidden');
+            renderParticipantSpace(r.record.id); switchTab('space');
+          }).catch(() => {});
+        }
+      } catch (e) {}
+      // Tableau de bord : actualisation automatique toutes les 45 s
+      setInterval(async () => {
+        const free = [editPaymentModal, walkInCashModal].every(m => m.classList.contains('hidden'));
+        if (adminCode && free && !financeAdminModal.classList.contains('hidden')) {
+          try { registrations = (await api('adminList', { code: adminCode })).records; renderFinanceAdminDashboard(); } catch (e) {}
+        }
+      }, 45000);
+      window.__tabReady = true;
+      // Le reçu PNG est dessiné sur canvas : attendre les polices pour éviter un rendu de secours
+      if (document.fonts) {
+        Promise.all(["800 20px 'Plus Jakarta Sans'", "700 20px 'Plus Jakarta Sans'", "600 20px 'Plus Jakarta Sans'", "800 20px 'Playfair Display'"].map(f => document.fonts.load(f)))
+          .then(() => { if (activeParticipantId) renderParticipantSpace(activeParticipantId); })
+          .catch(() => {});
+      }
+    });
+  </script>
+</body>
+</html>
